@@ -62,22 +62,6 @@ Here are the hardware requirements, experimental instructions and simulation cod
 │  │  ├─Parameters
 │  │  └─raspberry
 │  └─Simulation
-│      │  README.md
-│      │  
-│      ├─Cal_cons
-│      └─Main System
-└─Application3
-    ├─Hardware
-    │  │  README.md
-    │  │  
-    │  ├─Codes for DSP in plant side
-    │  ├─Codes for PFC
-    │  └─Parameters
-    ├─SemiHardware
-    └─Simulation
-        │  README.md
-        │  
-        └─Main System
 
         
 ## Authors
