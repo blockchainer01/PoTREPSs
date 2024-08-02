@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<item name="report">
+    <item name="diagnostic">
+        <item name="Compilation - Target (ysconfig/network-scripts/ifcfg-eth0: No such file or director)"/>
+    </item>
+</item>

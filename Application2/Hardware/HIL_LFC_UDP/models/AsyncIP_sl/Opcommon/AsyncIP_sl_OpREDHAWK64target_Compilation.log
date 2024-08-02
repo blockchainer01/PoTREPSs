@@ -1,0 +1,249 @@
+
+-------------------- Starting compilation --------------------
+Start at : Thursday, June 20, 2024, 21:06:50
+
+The current RT-LAB version is:  v2023.1.0.533
+The current model is:           D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx
+The current host platform is:   Windows
+The current target platform is: OPAL-RT Linux (x64-based)
+The current compiler is:        Automatic
+The target OS version is:       OPAL-RTLinux 3.4.1 (4.19.55-opalrtlinux)
+Separating model because D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx has changed.
+Preparing original model for code separation and generation...
+The current Matlab version is:  v9.11 (64 Bit) (R2021B)
+
+
+Warning: "BlockReduction" is set to "on". Some blocks could have been removed.
+RtlabInfo not loaded
+Separating RT-LAB model (number of RT subsystems = 1, console detected).
+Separating RT-LAB subsystem 'sm_ip_test'.
+Separating RT-LAB subsystem 'sc_console'.
+Repair completed.
+
+Repair completed.
+
+******IMPORTANT******
+Corrupted Stateflow charts are recovered and placed in a subsystem named
+'###Recovered Stateflow Charts###'. You can open it using
+   open_system('asyncip_sl_2_sc_console/###Recovered Stateflow Charts###');
+
+Model preparation and separation duration : 00h:00m:32s
+-------------------- Completed successfully --------------------
+
+Generating model because D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\Opcommon\asyncip_sl_1_sm_ip_test.slx has changed.
+
+-------------------- Generating C code --------------------
+
+Using System Target File (TLC file) : rtlab_rtmodel.tlc...
+
+Using Template Makefile (TMF file) : rtlab_rtmodel.tmf...
+
+-------------------- Generating asyncip_sl_1_sm_ip_test C code --------------------
+Calling RTW Make Command make_rtw...
+### Starting build procedure for: asyncip_sl_1_sm_ip_test
+### Generating code and artifacts to 'Model specific' folder structure
+### Generating code into build folder: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_1_sm_ip_test_rtlab
+ 
+*** Asynchronous process detected, configuring build ***
+*** Process name: AsyncIP
+ 
+
+### Invoking Target Language Compiler on asyncip_sl_1_sm_ip_test.rtw
+### Using System Target File: C:\OPAL-RTyyq\RT-LAB\2023.1\Simulink\rtw\c\common\rtlab_rtmodel.tlc
+        ### Loading TLC function libraries
+.......
+### Initial pass through model to cache user defined code
+...
+### TLC Scope icon is not supported by RT-LAB.
+....
+### Caching model source code
+...............................................................................
+................................................................
+### Writing header file asyncip_sl_1_sm_ip_test_types.h
+### Writing source file asyncip_sl_1_sm_ip_test.c
+### Writing header file asyncip_sl_1_sm_ip_test_private.h
+.
+### Writing header file asyncip_sl_1_sm_ip_test.h
+### Writing header file rtwtypes.h
+### Writing header file builtin_typeid_types.h
+### Writing header file multiword_types.h
+### Writing header file zero_crossing_types.h
+### Writing header file rtmodel.h
+.
+### Writing source file asyncip_sl_1_sm_ip_test_data.c
+### Writing header file rt_nonfinite.h
+### Writing source file rt_nonfinite.c
+### Writing header file rt_defines.h
+### Writing header file rtGetInf.h
+### Writing source file rtGetInf.c
+.
+### Writing header file rtGetNaN.h
+### Writing source file rtGetNaN.c
+### TLC code generation complete.
+Version 9.6 (R2021b) 14-May-2021
+### Creating model mapping file asyncip_sl_1_sm_ip_test.map using opal_map_file.tlc
+...........................................................................### Saving binary information cache.
+.
+### Processing Template Makefile: C:\OPAL-RTyyq\RT-LAB\2023.1\Simulink\rtw\c\common\rtlab_rtmodel.tmf
+[Warning: Found legacy make variables |>SHARED_SRC<|, |>SHARED_SRC_DIR<| in the template makefile
+C:\OPAL-RTyyq\RT-LAB\2023.1\Simulink\rtw\c\common\rtlab_rtmodel.tmf. The variables are no longer required.
+You can remove the variables.] 
+### Created makefile D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_1_sm_ip_test_rtlab\asyncip_sl_1_sm_ip_test.mk
+### Successful completion of code generation for: asyncip_sl_1_sm_ip_test
+### Simulink cache artifacts for 'asyncip_sl_1_sm_ip_test' were created in 'D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_1_sm_ip_test.slxc'.
+
+Build Summary
+
+Top model targets built:
+
+Model                    Action          Rebuild Reason                   
+==========================================================================
+asyncip_sl_1_sm_ip_test  Code generated  Generated code was out of date.  
+
+1 of 1 models built (0 models already up to date)
+Build duration: 0h 0m 11.863s
+
+
+asyncip_sl_1_sm_ip_test : Generating C code duration : 00h:00m:16s
+Generating C code total duration : 00h:00m:16s
+
+-------------------- Completed successfully --------------------
+
+-------------------- Creating the parameter database --------------------
+Parameter(s) with more than 1000 values will be disabled. 
+Use PARAM_VECTOR_SIZE_LIMIT environment variable to modify this limit.
+Parameter database creation duration: 00h:00m:00s
+-------------------- Parameter database created successfully --------------------
+
+-------------------- Creating the signals database --------------------
+Signal(s) with more than 1000 values will be disabled.
+Use SIGNALS_VECTOR_SIZE_LIMIT environment variable to modify this limit.
+
+Signal database creation duration: 00h:00m:00s
+-------------------- Signal database created successfully --------------------
+Generating simulation data...
+Data generated in 00h:00m:00s
+
+Closing Matlab... OK.
+Creating DataLoggers...
+ - sm_ip_test... OK
+Updating dependencies... OK.
+Compiling model because D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test.c has changed.
+
+-------------------- Validating sources files --------------------------
+
+-------------------- Done validating source files ----------------------
+
+
+
+-------------------- Transferring the generated C code --------------------
+
+Connecting to 10.64.117.183 ... OK.
+Transferring in ascii mode C:\OPAL-RTyyq\RT-LAB\2023.1\Simulink/rtw/c/common/linux64.opt ... OK.
+Transferring in ascii mode C:\OPAL-RTyyq\RT-LAB\2023.1\Simulink/rtw/c/common/posix.rules ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\settings.json (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test*.c (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test*.h (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rtGet*.h (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rtGet*.c (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test.mk (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rt_*.c (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rt_*.h (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\zero_crossing_types*.h (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\builtin_typeid_types*.h (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\multiword_types*.h (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rtwtypes.h (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rtmodel.h (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\drive_asyncip_sl_1_sm_ip_test*.c (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\drive_asyncip_sl_1_sm_ip_test*.h (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\Opal*.c (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\ssc_ml_fun*.h (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\slprj\rtlab_rtmodel\_sharedutils\*.c (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\slprj\rtlab_rtmodel\_sharedutils\*.h (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\slprj\rtlab_rtmodel\_sharedutils\*.mk (sm_ip_test) ... OK.
+
+Transferring common RT-LAB files:
+Transferring in ascii: C:\OPAL-RTyyq\RT-LAB\2023.1\Simulink\rtw\c\common\model_main.c (sm_ip_test) ... OK.
+
+Transferring user extra files:
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP.c (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP.mk (sm_ip_test) ... OK.
+Transferring in ascii: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIPUtils.h (sm_ip_test) ... OK.
+
+File transfer duration : 00h:00m:01s
+-------------------- Completed successfully --------------------
+
+-------------------- Building the generated C code --------------------
+
+Executing script /usr/opalrt/v2023.1.0.533/common/python/rtlab/global/target_precompile.py ... done
+Removing relative includes from ./../asyncip_sl_sm_ip_test/model_main.c ...
+Done
+Executing script /usr/opalrt/v2023.1.0.533/common/python/rtlab/global/target_subsys_precompile.py ... done
+
+-------------------- Building asyncip_sl_1_sm_ip_test --------------------
+
+/usr/bin/make -f AsyncIP.mk
+make[1]: Entering directory '/home/yi_yu_2023/d/rtlab2023.1_workspace/hil_lfc_udp/models/asyncip_sl/asyncip_sl_sm_ip_test'
+gcc -c  -O -D_GNU_SOURCE -I. -I/usr/opalrt/common/include_target   -c -o AsyncIP.o AsyncIP.c
+In file included from AsyncIP.c:52:
+AsyncIPUtils.h: In function 'InitSocket':
+AsyncIPUtils.h:96:29: warning: implicit declaration of function 'inet_addr'; did you mean 'si_addr'? [-Wimplicit-function-declaration]
+   send_ad.sin_addr.s_addr = inet_addr(IconCtrlStruct.StringParam[0]);
+                             ^~~~~~~~~
+                             si_addr
+AsyncIP.c: In function 'main':
+AsyncIP.c:405:3: warning: implicit declaration of function 'pthread_attr_init'; did you mean 'pthread_kill'? [-Wimplicit-function-declaration]
+   pthread_attr_init (&attr_send);
+   ^~~~~~~~~~~~~~~~~
+   pthread_kill
+AsyncIP.c:407:8: warning: implicit declaration of function 'pthread_create'; did you mean 'pthread_kill'? [-Wimplicit-function-declaration]
+   if ((pthread_create (&tid_send, &attr_send, SendToIPPort, NULL)) == -1)
+        ^~~~~~~~~~~~~~
+        pthread_kill
+AsyncIP.c:423:14: warning: implicit declaration of function 'pthread_join'; did you mean 'pthread_kill'? [-Wimplicit-function-declaration]
+   if ((err = pthread_join (tid_send, NULL)) != 0)
+              ^~~~~~~~~~~~
+              pthread_kill
+g++   -L. -L/usr/opalrt/common/bin -L/usr/opalrt/common/lib -L/usr/opalrt/common/lib/redhawk64 -o AsyncIP AsyncIP.o -lOpalAsyncApiCore -lOpalCore -lOpalUtils  -lOpalAsyncApiCore -lOpalComm -lOpalEnv -lOpalCPU -lOpalMemLock -lLicenseLib -lSystem -lstdc++ -luuid -lcommon-isolation -lpthread -lm -ldl -lutil -lrt  -limf -lirc -ldl  -lOpalAsyncApiCore -lOpalCore -lOpalUtils  -lOpalAsyncApiCore -lOpalComm -lOpalEnv -lOpalCPU -lOpalMemLock -lLicenseLib -lSystem -lstdc++ -luuid -lcommon-isolation -lpthread -lm -ldl -lutil -lrt  -limf -lirc -ldl 
+chmod 777 AsyncIP
+### Created executable: AsyncIP
+make[1]: Leaving directory '/home/yi_yu_2023/d/rtlab2023.1_workspace/hil_lfc_udp/models/asyncip_sl/asyncip_sl_sm_ip_test'
+/usr/bin/make -f asyncip_sl_1_sm_ip_test.mk
+make[1]: Entering directory '/home/yi_yu_2023/d/rtlab2023.1_workspace/hil_lfc_udp/models/asyncip_sl/asyncip_sl_sm_ip_test'
+rm -f asyncip_sl_1_sm_ip_test
+gcc -c  -O3 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=asyncip_sl_1_sm_ip_test -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=12 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2021B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.11/simulink/include -I/usr/matlab/v9.11/extern/include -I/usr/matlab/v9.11/rtw/c/src -I/usr/matlab/v9.11/rtw/c/src/matrixmath  -I/usr/matlab/v9.11/toolbox/simscape/include/drive -I/usr/matlab/v9.11/toolbox/simscape/include/mech -I/usr/matlab/v9.11/toolbox/simscape/include/foundation -I/usr/matlab/v9.11/toolbox/simscape/include/math -I/usr/matlab/v9.11/toolbox/simscape/include/lang -I/usr/matlab/v9.11/toolbox/simscape/include/external -I/usr/matlab/v9.11/toolbox/simscape/include/network_engine -I/usr/matlab/v9.11/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.11/toolbox/dspblks/include -I/usr/matlab/v9.11/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/utils -I/usr/matlab/v9.11/toolbox/simscape/include/pm_math -I/usr/opalrt/v2023.1.0.533/common/include -I/usr/opalrt/v2023.1.0.533/common/include_target -I/usr/opalrt/v2023.1.0.533/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  asyncip_sl_1_sm_ip_test.c
+gcc -c  -O3 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=asyncip_sl_1_sm_ip_test -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=12 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2021B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.11/simulink/include -I/usr/matlab/v9.11/extern/include -I/usr/matlab/v9.11/rtw/c/src -I/usr/matlab/v9.11/rtw/c/src/matrixmath  -I/usr/matlab/v9.11/toolbox/simscape/include/drive -I/usr/matlab/v9.11/toolbox/simscape/include/mech -I/usr/matlab/v9.11/toolbox/simscape/include/foundation -I/usr/matlab/v9.11/toolbox/simscape/include/math -I/usr/matlab/v9.11/toolbox/simscape/include/lang -I/usr/matlab/v9.11/toolbox/simscape/include/external -I/usr/matlab/v9.11/toolbox/simscape/include/network_engine -I/usr/matlab/v9.11/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.11/toolbox/dspblks/include -I/usr/matlab/v9.11/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/utils -I/usr/matlab/v9.11/toolbox/simscape/include/pm_math -I/usr/opalrt/v2023.1.0.533/common/include -I/usr/opalrt/v2023.1.0.533/common/include_target -I/usr/opalrt/v2023.1.0.533/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  asyncip_sl_1_sm_ip_test_data.c
+gcc -c  -O3 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=asyncip_sl_1_sm_ip_test -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=12 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2021B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.11/simulink/include -I/usr/matlab/v9.11/extern/include -I/usr/matlab/v9.11/rtw/c/src -I/usr/matlab/v9.11/rtw/c/src/matrixmath  -I/usr/matlab/v9.11/toolbox/simscape/include/drive -I/usr/matlab/v9.11/toolbox/simscape/include/mech -I/usr/matlab/v9.11/toolbox/simscape/include/foundation -I/usr/matlab/v9.11/toolbox/simscape/include/math -I/usr/matlab/v9.11/toolbox/simscape/include/lang -I/usr/matlab/v9.11/toolbox/simscape/include/external -I/usr/matlab/v9.11/toolbox/simscape/include/network_engine -I/usr/matlab/v9.11/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.11/toolbox/dspblks/include -I/usr/matlab/v9.11/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/utils -I/usr/matlab/v9.11/toolbox/simscape/include/pm_math -I/usr/opalrt/v2023.1.0.533/common/include -I/usr/opalrt/v2023.1.0.533/common/include_target -I/usr/opalrt/v2023.1.0.533/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  asyncip_sl_1_sm_ip_test_offsets.c
+gcc -c  -O3 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=asyncip_sl_1_sm_ip_test -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=12 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2021B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.11/simulink/include -I/usr/matlab/v9.11/extern/include -I/usr/matlab/v9.11/rtw/c/src -I/usr/matlab/v9.11/rtw/c/src/matrixmath  -I/usr/matlab/v9.11/toolbox/simscape/include/drive -I/usr/matlab/v9.11/toolbox/simscape/include/mech -I/usr/matlab/v9.11/toolbox/simscape/include/foundation -I/usr/matlab/v9.11/toolbox/simscape/include/math -I/usr/matlab/v9.11/toolbox/simscape/include/lang -I/usr/matlab/v9.11/toolbox/simscape/include/external -I/usr/matlab/v9.11/toolbox/simscape/include/network_engine -I/usr/matlab/v9.11/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.11/toolbox/dspblks/include -I/usr/matlab/v9.11/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/utils -I/usr/matlab/v9.11/toolbox/simscape/include/pm_math -I/usr/opalrt/v2023.1.0.533/common/include -I/usr/opalrt/v2023.1.0.533/common/include_target -I/usr/opalrt/v2023.1.0.533/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  model_main.c
+gcc -c  -O3 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=asyncip_sl_1_sm_ip_test -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=12 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2021B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.11/simulink/include -I/usr/matlab/v9.11/extern/include -I/usr/matlab/v9.11/rtw/c/src -I/usr/matlab/v9.11/rtw/c/src/matrixmath  -I/usr/matlab/v9.11/toolbox/simscape/include/drive -I/usr/matlab/v9.11/toolbox/simscape/include/mech -I/usr/matlab/v9.11/toolbox/simscape/include/foundation -I/usr/matlab/v9.11/toolbox/simscape/include/math -I/usr/matlab/v9.11/toolbox/simscape/include/lang -I/usr/matlab/v9.11/toolbox/simscape/include/external -I/usr/matlab/v9.11/toolbox/simscape/include/network_engine -I/usr/matlab/v9.11/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.11/toolbox/dspblks/include -I/usr/matlab/v9.11/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/utils -I/usr/matlab/v9.11/toolbox/simscape/include/pm_math -I/usr/opalrt/v2023.1.0.533/common/include -I/usr/opalrt/v2023.1.0.533/common/include_target -I/usr/opalrt/v2023.1.0.533/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  rtGetInf.c
+gcc -c  -O3 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=asyncip_sl_1_sm_ip_test -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=12 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2021B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.11/simulink/include -I/usr/matlab/v9.11/extern/include -I/usr/matlab/v9.11/rtw/c/src -I/usr/matlab/v9.11/rtw/c/src/matrixmath  -I/usr/matlab/v9.11/toolbox/simscape/include/drive -I/usr/matlab/v9.11/toolbox/simscape/include/mech -I/usr/matlab/v9.11/toolbox/simscape/include/foundation -I/usr/matlab/v9.11/toolbox/simscape/include/math -I/usr/matlab/v9.11/toolbox/simscape/include/lang -I/usr/matlab/v9.11/toolbox/simscape/include/external -I/usr/matlab/v9.11/toolbox/simscape/include/network_engine -I/usr/matlab/v9.11/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.11/toolbox/dspblks/include -I/usr/matlab/v9.11/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/utils -I/usr/matlab/v9.11/toolbox/simscape/include/pm_math -I/usr/opalrt/v2023.1.0.533/common/include -I/usr/opalrt/v2023.1.0.533/common/include_target -I/usr/opalrt/v2023.1.0.533/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  rtGetNaN.c
+gcc -c  -O3 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=asyncip_sl_1_sm_ip_test -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=12 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2021B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.11/simulink/include -I/usr/matlab/v9.11/extern/include -I/usr/matlab/v9.11/rtw/c/src -I/usr/matlab/v9.11/rtw/c/src/matrixmath  -I/usr/matlab/v9.11/toolbox/simscape/include/drive -I/usr/matlab/v9.11/toolbox/simscape/include/mech -I/usr/matlab/v9.11/toolbox/simscape/include/foundation -I/usr/matlab/v9.11/toolbox/simscape/include/math -I/usr/matlab/v9.11/toolbox/simscape/include/lang -I/usr/matlab/v9.11/toolbox/simscape/include/external -I/usr/matlab/v9.11/toolbox/simscape/include/network_engine -I/usr/matlab/v9.11/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.11/toolbox/dspblks/include -I/usr/matlab/v9.11/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/utils -I/usr/matlab/v9.11/toolbox/simscape/include/pm_math -I/usr/opalrt/v2023.1.0.533/common/include -I/usr/opalrt/v2023.1.0.533/common/include_target -I/usr/opalrt/v2023.1.0.533/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  /usr/matlab/v9.11/rtw/c/src/rt_logging.c
+gcc -c  -O3 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=asyncip_sl_1_sm_ip_test -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=12 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2021B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.11/simulink/include -I/usr/matlab/v9.11/extern/include -I/usr/matlab/v9.11/rtw/c/src -I/usr/matlab/v9.11/rtw/c/src/matrixmath  -I/usr/matlab/v9.11/toolbox/simscape/include/drive -I/usr/matlab/v9.11/toolbox/simscape/include/mech -I/usr/matlab/v9.11/toolbox/simscape/include/foundation -I/usr/matlab/v9.11/toolbox/simscape/include/math -I/usr/matlab/v9.11/toolbox/simscape/include/lang -I/usr/matlab/v9.11/toolbox/simscape/include/external -I/usr/matlab/v9.11/toolbox/simscape/include/network_engine -I/usr/matlab/v9.11/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.11/toolbox/dspblks/include -I/usr/matlab/v9.11/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/utils -I/usr/matlab/v9.11/toolbox/simscape/include/pm_math -I/usr/opalrt/v2023.1.0.533/common/include -I/usr/opalrt/v2023.1.0.533/common/include_target -I/usr/opalrt/v2023.1.0.533/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  rt_nonfinite.c
+gcc -c  -O3 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=asyncip_sl_1_sm_ip_test -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=12 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2021B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.11/simulink/include -I/usr/matlab/v9.11/extern/include -I/usr/matlab/v9.11/rtw/c/src -I/usr/matlab/v9.11/rtw/c/src/matrixmath  -I/usr/matlab/v9.11/toolbox/simscape/include/drive -I/usr/matlab/v9.11/toolbox/simscape/include/mech -I/usr/matlab/v9.11/toolbox/simscape/include/foundation -I/usr/matlab/v9.11/toolbox/simscape/include/math -I/usr/matlab/v9.11/toolbox/simscape/include/lang -I/usr/matlab/v9.11/toolbox/simscape/include/external -I/usr/matlab/v9.11/toolbox/simscape/include/network_engine -I/usr/matlab/v9.11/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.11/toolbox/dspblks/include -I/usr/matlab/v9.11/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/utils -I/usr/matlab/v9.11/toolbox/simscape/include/pm_math -I/usr/opalrt/v2023.1.0.533/common/include -I/usr/opalrt/v2023.1.0.533/common/include_target -I/usr/opalrt/v2023.1.0.533/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  /usr/matlab/v9.11/rtw/c/src/rt_printf.c
+gcc -c  -O3 -ffast-math -mtune=native -march=native -falign-loops=2 -falign-jumps=2 -falign-functions=2 -m64    -DUSE_RTMODEL -DMODEL=asyncip_sl_1_sm_ip_test -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=12 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2021B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.11/simulink/include -I/usr/matlab/v9.11/extern/include -I/usr/matlab/v9.11/rtw/c/src -I/usr/matlab/v9.11/rtw/c/src/matrixmath  -I/usr/matlab/v9.11/toolbox/simscape/include/drive -I/usr/matlab/v9.11/toolbox/simscape/include/mech -I/usr/matlab/v9.11/toolbox/simscape/include/foundation -I/usr/matlab/v9.11/toolbox/simscape/include/math -I/usr/matlab/v9.11/toolbox/simscape/include/lang -I/usr/matlab/v9.11/toolbox/simscape/include/external -I/usr/matlab/v9.11/toolbox/simscape/include/network_engine -I/usr/matlab/v9.11/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.11/toolbox/dspblks/include -I/usr/matlab/v9.11/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/utils -I/usr/matlab/v9.11/toolbox/simscape/include/pm_math -I/usr/opalrt/v2023.1.0.533/common/include -I/usr/opalrt/v2023.1.0.533/common/include_target -I/usr/opalrt/v2023.1.0.533/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  /usr/matlab/v9.11/rtw/c/src/rt_sim.c
+### Linking ...
+g++  -Wl,-rpath='/usr/opalrt/v2023.1.0.533/common/bin' -Wl,'-rpath=/usr/opalrt/v2023.1.0.533/common/bin/x64' -L. -L/usr/opalrt/v2023.1.0.533/RT-LAB/lib -L/usr/opalrt/v2023.1.0.533/common/lib -L/usr/opalrt/v2023.1.0.533/common/lib/redhawk64 -L/usr/opalrt/v2023.1.0.533/common/bin -L/usr/opalrt/v2023.1.0.533/common/bin/x64 -L/usr/opalrt/externals/lib    -o asyncip_sl_1_sm_ip_test asyncip_sl_1_sm_ip_test.o asyncip_sl_1_sm_ip_test_data.o asyncip_sl_1_sm_ip_test_offsets.o model_main.o rtGetInf.o rtGetNaN.o rt_logging.o rt_nonfinite.o rt_printf.o rt_sim.o    -lOpalAsyncApiR2021B -lOpalAsyncApiCore -lOpalSimCore -lSimCoreLib -lSyncExchangerLib -lConnectionLib -lConnectionFactoryLib -lOpIRTS_RT-2021b -lOpalSfunR2021B -lOpalR2021B -lBlocksRT-2021b -ldspR2021B -lsimscapeR2021B -lSimulinkRT-2021b -lOpalRTER2021B -lOpalCore -lLicenseLib -lSimulink -lSimulationUtilities -lInfrastructure  -lNetwork -lKLU -lNumeric -lFramework -lSystem -lMatio -luuid -lpthread -lOpalSimCore -lSimCoreLib -lSyncExchangerLib -lConnectionLib -lConnectionFactoryLib  -lOpalHttpLicenseRequest -lRapidJSON_Wrapper -lOpalUtils -lOpalAscii -lOpalComm -lOpalConfigFiles -lOpalCPU -lOpalEnv -lOpalFiles -lOpalList -lOpalMemLock -lOpalOSIdentification -lOpalPyTestUtils -lcommon-isolation -lpthread -lm -ldl -lutil -lrt -limf -lirc -lsvml      /usr/matlab/v9.11/rtw/c/libsrc/rtwlibr_redhawk64.a 
+chmod a+x asyncip_sl_1_sm_ip_test
+### Created executable: asyncip_sl_1_sm_ip_test
+make[1]: Leaving directory '/home/yi_yu_2023/d/rtlab2023.1_workspace/hil_lfc_udp/models/asyncip_sl/asyncip_sl_sm_ip_test'
+
+asyncip_sl_1_sm_ip_test : Building subsystem duration : 00h:00m:04s
+
+Building model total duration : 00h:00m:04s
+-------------------- Completed successfully --------------------
+
+-------------------- Transferring the built model --------------------
+Connecting to 10.64.117.183 ... OK.
+Transferring in binary mode /home/yi_yu_2023/d/rtlab2023.1_workspace/hil_lfc_udp/models/asyncip_sl/asyncip_sl_sm_ip_test/asyncip_sl_1_sm_ip_test ... OK.
+Transferring in ascii mode /home/yi_yu_2023/d/rtlab2023.1_workspace/hil_lfc_udp/models/asyncip_sl/compilation_target_report.xml ... OK.
+Transferring in binary mode /home/yi_yu_2023/d/rtlab2023.1_workspace/hil_lfc_udp/models/asyncip_sl/asyncip_sl_sm_ip_test/AsyncIP ... OK.
+Transferring in binary mode /home/yi_yu_2023/d/rtlab2023.1_workspace/hil_lfc_udp/models/asyncip_sl/asyncip_sl_sm_ip_test/AsyncIP ... OK.
+
+File transfer duration : 00h:00m:01s
+-------------------- Completed successfully --------------------
+
+End at : Thursday, June 20, 2024, 21:08:22
+
+Compilation duration : 00h:01m:32s
+
+Updating status for next build...OK

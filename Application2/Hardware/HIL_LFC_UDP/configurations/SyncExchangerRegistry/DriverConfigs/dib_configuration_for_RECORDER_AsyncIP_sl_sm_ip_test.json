@@ -1,0 +1,1 @@
+{"io_name":"RECORDER_AsyncIP_sl_sm_ip_test","io_type":"DataLogger","io_config_file_name":"90E5A5CA-F594-4010-AA00-FC7E8FF04AAC.opal","bus_in":{"name":"bus_RECORDER_AsyncIP_sl_sm_ip_test_in","type":"bus","items":[{"name":"SIGNAL_GROUP_1","type":"bus","items":[{"name":"log_input","type":"F64","num_point":"1"},{"name":"trigger_input","type":"F64","num_point":"1"}]}]}}

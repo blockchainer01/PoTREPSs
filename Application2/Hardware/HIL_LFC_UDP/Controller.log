@@ -1,0 +1,1105 @@
+2024-6-20 16h12m1s:Using default NodeSessions limit.  Limit set to 1024.
+2024-6-20 16h12m1s: >>>> SessionRoot::initialize port 0
+2024-6-20 16h12m1s:Begin to register on OpalRoot
+2024-6-20 16h12m1s:Registered on OpalRoot, port 25259
+2024-6-20 16h12m1s:Loading services from "C:/OPAL-RTyyq/RT-LAB/2023.1/common/bin/x64/Services"
+2024-6-20 16h12m1s:  Plugin "DataAcquisition": services informations retrieved
+2024-6-20 16h12m1s:  Plugin "DriverIdentification": services informations retrieved
+2024-6-20 16h12m1s:  Plugin "Dummy": services informations retrieved
+2024-6-20 16h12m1s:  Plugin "ePHASORSIM": services informations retrieved
+2024-6-20 16h12m1s:  Plugin "HEI": services informations retrieved
+2024-6-20 16h12m1s:  Plugin "IEC104": services informations retrieved
+2024-6-20 16h12m1s:  Plugin "Matlab": services informations retrieved
+2024-6-20 16h12m1s:  Plugin "MODBUS": services informations retrieved
+2024-6-20 16h12m1s:  Plugin "Parameters": services informations retrieved
+2024-6-20 16h12m1s:  Plugin "Pickering-41-752": services informations retrieved
+2024-6-20 16h12m1s:  Plugin "RFM": services informations retrieved
+2024-6-20 16h12m1s:  Plugin "SimulationSetup": services informations retrieved
+2024-6-20 16h12m1s:  Plugin "Web": services informations retrieved
+2024-6-20 16h12m1s:Root initialized: 10.64.117.70:25259/resources/root
+2024-6-20 16h12m1s:Service Web/Server found
+2024-6-20 16h12m1s:Initialization done
+2024-6-20 16h12m1s:ControllerMain.cpp------- NEW CONTROLLER STARTED (pid 23672) ------
+2024-6-20 16h12m1s:Controller.cppnew client: 24076
+2024-6-20 16h12m1s:CClient.cppCreating new client ID: 10264
+2024-6-20 16h12m1s:CClient.cppclientThread started with port:1248
+2024-6-20 16h12m1s:Instance ID = 0
+2024-6-20 16h12m1s:CClient.cppClient connected: name "NCSLab", computer "YI_YU_2023", ip "127.0.0.1", pid 10224
+2024-6-20 16h12m1s:CTarget.cppStarting observer for target target
+2024-6-20 16h12m1s:Service SimulationSetup/SimulationSetup found
+2024-6-20 16h12m1s:No SyncExchangerRegistry found at D:/RTLAB2023.1_Workspace/HIL_LFC_UDP/configurations/SyncExchangerRegistry
+2024-6-20 16h12m1s:[UniconComm] call POST /projects/initialize
+2024-6-20 16h12m1s:Controller.cppnew client: 24076
+2024-6-20 16h12m1s:CClient.cppCreating new client ID: 22844
+2024-6-20 16h12m1s:CClient.cppclientThread started with port:1460
+2024-6-20 16h12m1s:Instance ID = 110
+2024-6-20 16h12m2s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 16h12m2s:[UniconComm] call POST /projects/initialize
+2024-6-20 16h12m2s:[CurlComm][FAILED] Error perform: Failed initialization
+2024-6-20 16h12m2s:Controller.cppRemoving client: 22844
+2024-6-20 16h12m2s:Controller.cppSuccessful removal of client: 22844
+2024-6-20 16h12m2s:CClient.cpp  clientThread exit. ThreadParam = 0x3de49d0
+2024-6-20 16h12m2s:[UniconComm] initialize DONE
+2024-6-20 16h12m2s:Controller.cppnew client: 24076
+2024-6-20 16h12m2s:CClient.cppCreating new client ID: 24368
+2024-6-20 16h12m2s:CClient.cppclientThread started with port:1404
+2024-6-20 16h12m2s:Instance ID = 110
+2024-6-20 16h12m2s:CClient.cppClient connected: name "NCSLab", computer "YI_YU_2023", ip "127.0.0.1", pid 10224
+2024-6-20 16h12m2s:ControllerHandleRequest.cpppClient->notifCommSock = 1412
+2024-6-20 16h12m2s:Controller.cppNOTIFICATION MSG IS: 144396663052566528,1026
+2024-6-20 16h12m2s:Controller.cppNOTIFICATION MSG IS: 144396663052566528,1009
+2024-6-20 16h12m2s:Controller.cppNOTIFICATION MSG IS: 144396663052566528,2015
+2024-6-20 16h12m2s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 16h12m2s:Controller.cppnew client: 24076
+2024-6-20 16h12m2s:CClient.cppCreating new client ID: 14508
+2024-6-20 16h12m2s:CClient.cppclientThread started with port:1556
+2024-6-20 16h12m2s:Instance ID = 110
+2024-6-20 16h12m2s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 16h12m2s:Controller.cppRemoving client: 14508
+2024-6-20 16h12m2s:Controller.cppSuccessful removal of client: 14508
+2024-6-20 16h12m2s:CClient.cpp  clientThread exit. ThreadParam = 0x3de52d0
+2024-6-20 16h12m6s:Controller.cppnew client: 24076
+2024-6-20 16h12m6s:CClient.cppCreating new client ID: 13112
+2024-6-20 16h12m6s:CClient.cppclientThread started with port:1600
+2024-6-20 16h12m6s:Instance ID = 110
+2024-6-20 16h12m7s:CClient.cppClient connected: name "NCSLab", computer "YI_YU_2023", ip "127.0.0.1", pid 10224
+2024-6-20 17h1m37s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx
+2024-6-20 17h1m37s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx opened
+2024-6-20 17h1m37s:WinUtils.cppCould not get the subsystem list. Verify that the model has been compiled.
+2024-6-20 17h1m37s:Controller.cppNOTIFICATION MSG IS: MODEL_NOT_LOADABLE
+2024-6-20 17h1m37s:[UniconComm] call GET project/:id/models
+2024-6-20 17h1m37s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 17h1m37s:Controller.cppNOTIFICATION MSG IS: 216455356602122240
+2024-6-20 17h1m37s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 17h1m37s:Controller.cppnew client: 24076
+2024-6-20 17h1m37s:CClient.cppCreating new client ID: 25104
+2024-6-20 17h1m37s:CClient.cppclientThread started with port:1768
+2024-6-20 17h1m37s:Instance ID = 110
+2024-6-20 17h1m37s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 17h1m37s:ControllerHandleRequest.cpppClient->notifCommSock = 1880
+2024-6-20 17h1m37s:Controller.cppRemoving client: 25104
+2024-6-20 17h1m37s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx
+2024-6-20 17h1m37s:Controller.cppSuccessful removal of client: 25104
+2024-6-20 17h1m37s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx opened
+2024-6-20 17h1m37s:CClient.cpp  clientThread exit. ThreadParam = 0x3de5230
+2024-6-20 17h1m37s:Controller.cppnew client: 24076
+2024-6-20 17h1m37s:CClient.cppCreating new client ID: 9820
+2024-6-20 17h1m37s:CClient.cppclientThread started with port:1900
+2024-6-20 17h1m37s:Instance ID = 110
+2024-6-20 17h1m37s:Controller.cppnew client: 24076
+2024-6-20 17h1m37s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 17h1m37s:CClient.cppCreating new client ID: 27972
+2024-6-20 17h1m37s:CClient.cppclientThread started with port:1636
+2024-6-20 17h1m37s:Instance ID = 110
+2024-6-20 17h1m37s:CClient.cppClient connected: name "NCSLab", computer "YI_YU_2023", ip "127.0.0.1", pid 10224
+2024-6-20 17h1m37s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 17h1m37s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 17h1m37s:Controller.cppRemoving client: 9820
+2024-6-20 17h1m37s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx
+2024-6-20 17h1m37s:Controller.cppSuccessful removal of client: 9820
+2024-6-20 17h1m37s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx opened
+2024-6-20 17h1m37s:CClient.cpp  clientThread exit. ThreadParam = 0x3de6650
+2024-6-20 17h2m8s:Controller.cppNOTIFICATION MSG IS: 216455356602122240,1009
+2024-6-20 17h2m8s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 17h2m8s:Controller.cppnew client: 24076
+2024-6-20 17h2m8s:CClient.cppCreating new client ID: 27952
+2024-6-20 17h2m8s:CClient.cppclientThread started with port:1756
+2024-6-20 17h2m8s:Instance ID = 110
+2024-6-20 17h2m8s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 17h2m8s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 17h2m8s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 17h2m8s:Controller.cppRemoving client: 27952
+2024-6-20 17h2m8s:Controller.cppSuccessful removal of client: 27952
+2024-6-20 17h2m8s:CClient.cpp  clientThread exit. ThreadParam = 0x3de7350
+2024-6-20 17h2m11s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 17h2m11s:Controller.cppnew client: 24076
+2024-6-20 17h2m11s:CClient.cppCreating new client ID: 18944
+2024-6-20 17h2m11s:CClient.cppclientThread started with port:2112
+2024-6-20 17h2m11s:Instance ID = 110
+2024-6-20 17h2m11s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 17h2m11s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 17h2m11s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 17h2m11s:Controller.cppRemoving client: 18944
+2024-6-20 17h2m11s:Controller.cppSuccessful removal of client: 18944
+2024-6-20 17h2m11s:CClient.cpp  clientThread exit. ThreadParam = 0x3de71b0
+2024-6-20 17h2m14s:Controller.cppnew client: 24076
+2024-6-20 17h2m14s:CClient.cppCreating new client ID: 25696
+2024-6-20 17h2m14s:CClient.cppclientThread started with port:1984
+2024-6-20 17h2m14s:Instance ID = 110
+2024-6-20 17h2m14s:CClient.cppClient connected: name "NCSLab", computer "YI_YU_2023", ip "127.0.0.1", pid 10224
+2024-6-20 17h2m14s:>>> Using MatlabCOM as in-process server
+2024-6-20 17h2m14s:Service Matlab/CommandsProcessor found
+2024-6-20 17h2m14s:MatlabHandler - createConnection: create connection has been successful with Matlab version = 9.11
+2024-6-20 17h2m15s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-6-20 17h2m43s:CIniFileCache.cppSaving HIL_LFC.llm because error was detected
+2024-6-20 17h2m43s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\HIL_LFC\HIL_LFC.slx
+2024-6-20 17h2m43s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\HIL_LFC\HIL_LFC.slx opened
+2024-6-20 17h2m43s:WinUtils.cppCould not get the subsystem list. Verify that the model has been compiled.
+2024-6-20 17h2m43s:Controller.cppNOTIFICATION MSG IS: MODEL_NOT_LOADABLE
+2024-6-20 17h2m43s:[UniconComm] call GET project/:id/models
+2024-6-20 17h2m43s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 17h2m43s:Error deleting file C:/ProgramData/OPAL-RT/RT-LAB/v2023.1.0.533/MetaController.state.lock:
+32 : 另一个程序正在使用此文件，进程无法访问。
+
+2024-6-20 17h2m43s:Not deleted
+2024-6-20 17h2m43s:Controller.cppNOTIFICATION MSG IS: 216456456113750016
+2024-6-20 17h2m43s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 17h2m43s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\HIL_LFC\HIL_LFC.slx
+2024-6-20 17h2m43s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\HIL_LFC\HIL_LFC.slx opened
+2024-6-20 17h2m43s:Controller.cppnew client: 24076
+2024-6-20 17h2m43s:CClient.cppCreating new client ID: 28456
+2024-6-20 17h2m43s:CClient.cppclientThread started with port:2064
+2024-6-20 17h2m43s:Instance ID = 110
+2024-6-20 17h2m43s:Controller.cppnew client: 24076
+2024-6-20 17h2m43s:CClient.cppClient connected: name "NCSLab", computer "YI_YU_2023", ip "127.0.0.1", pid 10224
+2024-6-20 17h2m43s:CClient.cppCreating new client ID: 16368
+2024-6-20 17h2m43s:CClient.cppclientThread started with port:2444
+2024-6-20 17h2m43s:Instance ID = 110
+2024-6-20 17h2m43s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 17h2m43s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 17h2m44s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 17h2m44s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 17h2m44s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 17h2m44s:Controller.cppRemoving client: 16368
+2024-6-20 17h2m44s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\HIL_LFC\HIL_LFC.slx
+2024-6-20 17h2m44s:Controller.cppSuccessful removal of client: 16368
+2024-6-20 17h2m44s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\HIL_LFC\HIL_LFC.slx opened
+2024-6-20 17h2m44s:CClient.cpp  clientThread exit. ThreadParam = 0x3de8190
+2024-6-20 17h2m44s:Controller.cppnew client: 24076
+2024-6-20 17h2m44s:CClient.cppCreating new client ID: 20780
+2024-6-20 17h2m44s:CClient.cppclientThread started with port:2496
+2024-6-20 17h2m44s:Instance ID = 110
+2024-6-20 17h2m44s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 17h2m44s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 17h2m44s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 17h2m44s:Controller.cppRemoving client: 20780
+2024-6-20 17h2m44s:Controller.cppSuccessful removal of client: 20780
+2024-6-20 17h2m44s:CClient.cpp  clientThread exit. ThreadParam = 0x3de7e10
+2024-6-20 17h2m54s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-6-20 17h3m16s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-6-20 17h3m24s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-6-20 17h3m26s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-6-20 17h3m33s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-6-20 17h3m40s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-6-20 17h5m21s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h5m21s:Controller.cppNOTIFICATION MSG IS: MODEL_COMPILING
+2024-6-20 17h5m21s:[UniconComm] call GET project/:id/models
+2024-6-20 17h5m21s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 17h5m21s:Compile.cppcompileThread launched with id = 9648
+2024-6-20 17h5m21s:Controller.cppnew client: 24076
+2024-6-20 17h5m21s:CClient.cppCreating new client ID: 23348
+2024-6-20 17h5m21s:CClient.cppclientThread started with port:2712
+2024-6-20 17h5m21s:Instance ID = 110
+2024-6-20 17h5m21s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 17h5m21s:Controller.cppNOTIFICATION MSG IS: Preparing model
+2024-6-20 17h5m21s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m21s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h5m21s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m21s:CTargetConnectionOpalD.cppReqReply, error from OpalSend, sockfd -1, got -1 instead of 5
+2024-6-20 17h5m21s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m21s:WinUtils.cppCould not send command to Opal daemon. 
+Possible causes: 
+	- RT-LAB has not been installed on node with IP address 10.64.117.183, 
+	- the RT-LAB daemon is not running. (591)
+2024-6-20 17h5m21s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m21s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m21s:CIniFileCache.cppSaving AsyncIP_sl.md5 because error was detected
+2024-6-20 17h5m21s:Controller.cppNOTIFICATION MSG IS: Model separation
+2024-6-20 17h5m21s:>>> Using MatlabCOM as in-process server
+2024-6-20 17h5m22s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m22s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m22s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m22s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m22s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m22s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m22s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m22s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m23s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m23s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m23s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m23s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m24s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m24s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m24s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m24s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m24s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m24s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m24s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m24s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m25s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m25s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m25s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m25s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m25s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m25s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m25s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m26s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m26s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m26s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m26s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m26s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m27s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m27s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m27s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m27s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m28s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m28s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m28s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m28s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h5m40s:MatlabHandler - createConnection: create connection has been successful with Matlab version = 9.11
+2024-6-20 17h5m41s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx
+2024-6-20 17h5m41s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx opened
+2024-6-20 17h6m11s:CModel.cppSubsystem binary not found: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test
+2024-6-20 17h6m11s:CModel.cppSubsystem binary not found: D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test
+2024-6-20 17h6m11s:CIniFileCache.cppSaving AsyncIP_sl.md0 because error was detected
+2024-6-20 17h6m11s:Controller.cppNOTIFICATION MSG IS: Code generation
+2024-6-20 17h6m11s:CIniFileCache.cppSaving asyncip_sl_1_sm_ip_test.sfp because error was detected
+2024-6-20 17h6m12s:Controller.cppNOTIFICATION MSG IS: Code generation: asyncip_sl_1_sm_ip_test
+2024-6-20 17h6m12s:moveFile error: 3 : 系统找不到指定的路径。
+
+2024-6-20 17h6m12s:moveFile error: 3 : 系统找不到指定的路径。
+
+2024-6-20 17h6m21s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 17h6m23s:Controller.cppNOTIFICATION MSG IS: Parameters database
+2024-6-20 17h6m23s:Controller.cppNOTIFICATION MSG IS: Signals database
+2024-6-20 17h6m23s:CIniFileCache.cppSaving asyncip_sl_1_sm_ip_test.map because error was detected
+2024-6-20 17h6m23s:CIniFileCache.cppSaving AsyncIP_sl.sig because error was detected
+2024-6-20 17h6m23s:Node '10.64.117.70:25259/resources/root/proxy/288512954935017472' is alive, proceed registerNode.
+2024-6-20 17h6m23s:Node '10.64.117.70:25259/resources/root/proxy/288512959229984768' is alive, proceed registerNode.
+2024-6-20 17h6m23s:Service SimulationSetup/AliasesService found
+2024-6-20 17h6m31s:MatlabCOM - getMethodId: dispatcher->GetIDsOfNames('Quit') failed with code 1726
+2024-6-20 17h6m31s:MatlabCOM::initializeClassCOM: CoInitialize function failed with code 262
+2024-6-20 17h6m31s:Service DriverIdentification/DriverIdentification found
+2024-6-20 17h6m31s:DataLogger library loaded
+2024-6-20 17h6m31s:DataLogger: fillPropertyTree
+2024-6-20 17h6m31s:Node '10.64.117.70:25259/resources/root/proxy/0445DEC1-1A49-4035-AE06-6E6ECA934552/90E5A5CA-F594-4010-AA00-FC7E8FF04AAC' is alive, proceed registerNode.
+2024-6-20 17h6m31s:File not found: D:/RTLAB2023.1_Workspace/HIL_LFC_UDP/configurations/SyncExchangerRegistry/DriverConfigs/90E5A5CA-F594-4010-AA00-FC7E8FF04AAC.opal
+2024-6-20 17h6m31s: start generating JSON IO configuration : io_name=RECORDER_AsyncIP_sl_sm_ip_test ; jsonConfigurationFile=D:/RTLAB2023.1_Workspace/HIL_LFC_UDP/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_AsyncIP_sl_sm_ip_test.json
+2024-6-20 17h6m31s: Saved '2' datapoints in 25.4876ms into configuration file 'D:/RTLAB2023.1_Workspace/HIL_LFC_UDP/configurations/SyncExchangerRegistry/DriverConfigs/dib_configuration_for_RECORDER_AsyncIP_sl_sm_ip_test.json'
+2024-6-20 17h6m31s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m31s:Controller.cppNOTIFICATION MSG IS: Source files validation
+2024-6-20 17h6m31s:Controller.cppNOTIFICATION MSG IS: File transfer
+2024-6-20 17h6m31s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m31s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m31s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m31s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m31s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m31s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m31s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m31s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m32s:Controller.cppNOTIFICATION MSG IS: Code compilation
+2024-6-20 17h6m32s:CTargetConnectionOpalD.cppRetrieveFileFromTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m33s:Controller.cppNOTIFICATION MSG IS: Code compilation: asyncip_sl_1_sm_ip_test
+2024-6-20 17h6m36s:Controller.cppNOTIFICATION MSG IS: File retrieval
+2024-6-20 17h6m36s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m36s:CTargetConnectionOpalD.cppGetFileList, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m36s:CTargetConnectionOpalD.cppRetrieveFileFromTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m37s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m37s:CTargetConnectionOpalD.cppGetFileList, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m37s:CTargetConnectionOpalD.cppRetrieveFileFromTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m37s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m37s:CTargetConnectionOpalD.cppGetFileList, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m37s:CTargetConnectionOpalD.cppRetrieveFileFromTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m37s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m37s:CTargetConnectionOpalD.cppGetFileList, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m37s:CTargetConnectionOpalD.cppRetrieveFileFromTarget, daemonIpAddr 10.64.117.183
+2024-6-20 17h6m37s:Controller.cppNOTIFICATION MSG IS: End of build process
+2024-6-20 17h6m37s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx: file access date is 06/20/24 17:05:13 and last access was UNSET
+2024-6-20 17h6m37s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\Opcommon\asyncip_sl_1_sm_ip_test.slx: file access date is 06/20/24 17:06:06 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for C:\OPAL-RTyyq\RT-LAB\2023.1\Simulink\rtw\c\common\rtlab_rtmodel.tlc: file access date is 01/26/23 21:15:30 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for C:\OPAL-RTyyq\RT-LAB\2023.1\Simulink\rtw\c\common\rtlab_rtmodel.tmf: file access date is 01/26/23 21:15:30 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\Opcommon\AsyncIP_sl.param: file access date is 06/20/24 17:06:23 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\Opcommon\AsyncIP_sl.signal: file access date is 06/20/24 17:06:23 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\Opcommon\AsyncIP_sl.subsys: file access date is 06/20/24 17:06:09 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\settings.json: file access date is 06/20/24 17:06:31 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test.c: file access date is 06/20/24 17:06:31 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test_data.c: file access date is 06/20/24 17:06:20 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test_offsets.c: file access date is 06/20/24 17:06:20 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test.h: file access date is 06/20/24 17:06:20 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test_private.h: file access date is 06/20/24 17:06:20 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test_types.h: file access date is 06/20/24 17:06:20 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rtGetInf.h: file access date is 06/20/24 17:06:19 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rtGetNaN.h: file access date is 06/20/24 17:06:19 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rtGetInf.c: file access date is 06/20/24 17:06:20 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rtGetNaN.c: file access date is 06/20/24 17:06:20 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test.mk: file access date is 06/20/24 17:06:21 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rt_nonfinite.c: file access date is 06/20/24 17:06:20 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rt_defines.h: file access date is 06/20/24 17:06:19 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rt_nonfinite.h: file access date is 06/20/24 17:06:19 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\zero_crossing_types.h: file access date is 06/20/24 17:06:20 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\builtin_typeid_types.h: file access date is 06/20/24 17:06:20 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\multiword_types.h: file access date is 06/20/24 17:06:20 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rtwtypes.h: file access date is 06/20/24 17:06:20 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rtmodel.h: file access date is 06/20/24 17:06:20 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\OpalSnapshotUtil.c: file access date is 06/20/24 17:06:22 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for C:\OPAL-RTyyq\RT-LAB\2023.1\Simulink\rtw\c\common\model_main.c: file access date is 01/26/23 21:15:30 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP.c: file access date is 12/15/23 15:30:28 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP.mk: file access date is 01/26/23 21:15:22 and last access was UNSET
+2024-6-20 17h6m38s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIPUtils.h: file access date is 01/26/23 21:15:22 and last access was UNSET
+2024-6-20 17h6m38s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 17h6m38s:CModel.cppSubsystme 'sm_ip_test' assigned to target 'target'
+2024-6-20 17h6m38s:Controller.cppNOTIFICATION MSG IS: MODEL_LOADABLE
+2024-6-20 17h6m38s:[UniconComm] call GET project/:id/models
+2024-6-20 17h6m38s:Controller.cppnew client: 24076
+2024-6-20 17h6m38s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 17h6m39s:CClient.cppCreating new client ID: 21928
+2024-6-20 17h6m39s:CClient.cppclientThread started with port:3500
+2024-6-20 17h6m39s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 17h6m39s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 17h6m39s:Instance ID = 110
+2024-6-20 17h6m39s:CClient.cppClient connected: name "NCSLab", computer "YI_YU_2023", ip "127.0.0.1", pid 10224
+2024-6-20 17h6m39s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 17h6m39s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 17h6m39s:Controller.cppRemoving client: 23348
+2024-6-20 17h6m39s:Controller.cppSuccessful removal of client: 23348
+2024-6-20 17h6m39s:CClient.cpp  clientThread exit. ThreadParam = 0x3de4bb0
+2024-6-20 17h6m39s:update RECORDER_AsyncIP_sl_sm_ip_test
+2024-6-20 17h6m39s:DataLogger: fillPropertyTree
+2024-6-20 17h6m39s:Node '10.64.117.70:25259/resources/root/proxy/0445DEC1-1A49-4035-AE06-6E6ECA934552/90E5A5CA-F594-4010-AA00-FC7E8FF04AAC' is alive, proceed registerNode.
+2024-6-20 17h6m39s:update duration = 41.6663 ms
+2024-6-20 17h6m39s:Controller.cppnew client: 24076
+2024-6-20 17h6m39s:CClient.cppCreating new client ID: 27828
+2024-6-20 17h6m39s:Instance ID = 110
+2024-6-20 17h6m39s:CClient.cppclientThread started with port:2596
+2024-6-20 17h6m39s:CClient.cppClient connected: name "NCSLab", computer "YI_YU_2023", ip "127.0.0.1", pid 10224
+2024-6-20 17h6m39s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx
+2024-6-20 17h6m39s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx opened
+2024-6-20 17h6m39s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\HIL_LFC\HIL_LFC.slx
+2024-6-20 17h6m39s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\HIL_LFC\HIL_LFC.slx opened
+2024-6-20 17h6m43s:Compile.cppCompilation completed successfully.
+2024-6-20 17h6m43s:Compile.cppCompilation Thread closed.
+2024-6-20 17h6m43s:[UniconComm] call GET project/:id/models
+2024-6-20 17h6m43s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 17h6m43s:Controller.cppnew client: 24076
+2024-6-20 17h6m43s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx
+2024-6-20 17h6m43s:CClient.cppCreating new client ID: 8316
+2024-6-20 17h6m44s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx opened
+2024-6-20 17h6m44s:CClient.cppclientThread started with port:3472
+2024-6-20 17h6m44s:Instance ID = 110
+2024-6-20 17h6m44s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 17h6m44s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 17h6m44s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 17h6m44s:Controller.cppRemoving client: 8316
+2024-6-20 17h6m44s:Controller.cppSuccessful removal of client: 8316
+2024-6-20 17h6m44s:CClient.cpp  clientThread exit. ThreadParam = 0x65afce0
+2024-6-20 17h6m53s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-6-20 17h11m19s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-6-20 17h35m53s:CTargetConnectionOpalD.cppError: IsTargetAlive failed in pinging 10.64.117.183
+2024-6-20 19h33m17s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-6-20 19h33m22s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-6-20 19h38m14s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 19h38m14s:CTargetConnectionOpalD.cppReqReply, error from OpalSend, sockfd 1812, got -1 instead of 5
+2024-6-20 19h38m14s:WinUtils.cppCould not send command to Opal daemon. 
+Possible causes: 
+	- RT-LAB has not been installed on node with IP address 10.64.117.183, 
+	- the RT-LAB daemon is not running. (591)
+2024-6-20 19h38m14s:Controller.cppNOTIFICATION MSG IS: MODEL_COMPILING
+2024-6-20 19h38m14s:[UniconComm] call GET project/:id/models
+2024-6-20 19h38m14s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 19h38m14s:Compile.cppcompileThread launched with id = 33372
+2024-6-20 19h38m15s:Controller.cppNOTIFICATION MSG IS: Preparing model
+2024-6-20 19h38m15s:Controller.cppnew client: 24076
+2024-6-20 19h38m15s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 19h38m15s:CClient.cppCreating new client ID: 29060
+2024-6-20 19h38m15s:CTargetConnectionOpalD.cppRetrieveFileFromTarget, daemonIpAddr 10.64.117.183
+2024-6-20 19h38m15s:CClient.cppclientThread started with port:2324
+2024-6-20 19h38m15s:Instance ID = 110
+2024-6-20 19h38m15s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 19h38m15s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m15s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m15s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m15s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx: file access date is 06/20/24 17:12:31 and last access was 06/20/24 17:05:13
+2024-6-20 19h38m15s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m15s:Controller.cppNOTIFICATION MSG IS: Model separation
+2024-6-20 19h38m15s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m15s:>>> Using MatlabCOM as in-process server
+2024-6-20 19h38m15s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m15s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m15s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m15s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m16s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m16s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m16s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m16s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m17s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m17s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m17s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m17s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m17s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m17s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m17s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m17s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m18s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m18s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m18s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m18s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m18s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m18s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m18s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m18s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m19s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m19s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m19s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m19s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m20s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m20s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m20s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m20s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m21s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m21s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m21s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m21s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m22s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m22s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m22s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m22s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 19h38m24s:Controller.cppRemoving client: 29060
+2024-6-20 19h38m24s:Controller.cppSuccessful removal of client: 29060
+2024-6-20 19h38m24s:CClient.cpp  clientThread exit. ThreadParam = 0x65fa330
+2024-6-20 19h38m53s:MatlabHandler - createConnection: create connection has been successful with Matlab version = 9.11
+2024-6-20 19h38m54s:Compile.cppCompilation abort: executing doCompileAbortExit.
+2024-6-20 19h38m59s:MatlabCOM - getMethodId: dispatcher->GetIDsOfNames('Quit') failed with code 1726
+2024-6-20 19h38m59s:MatlabCOM::initializeClassCOM: CoInitialize function failed with code 262
+2024-6-20 19h38m59s:Compile.cppDoCompile, taking abort exit
+2024-6-20 19h38m59s:Controller.cppNOTIFICATION MSG IS: MODEL_NOT_LOADABLE
+2024-6-20 19h38m59s:[UniconComm] call GET project/:id/models
+2024-6-20 19h38m59s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 19h38m59s:Compile.cppCompilation Thread closed.
+2024-6-20 19h38m59s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx
+2024-6-20 19h38m59s:Controller.cppnew client: 24076
+2024-6-20 19h38m59s:[UniconComm] call GET project/:id/models
+2024-6-20 19h38m59s:CClient.cppCreating new client ID: 5620
+2024-6-20 19h38m59s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 19h38m59s:CClient.cppclientThread started with port:3620
+2024-6-20 19h38m59s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx opened
+2024-6-20 19h38m59s:Instance ID = 110
+2024-6-20 19h38m59s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 19h38m59s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 19h38m59s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 19h38m59s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 19h38m59s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 19h38m59s:Controller.cppRemoving client: 5620
+2024-6-20 19h38m59s:Controller.cppSuccessful removal of client: 5620
+2024-6-20 19h38m59s:CClient.cpp  clientThread exit. ThreadParam = 0x65fa650
+2024-6-20 19h38m59s:Controller.cppnew client: 24076
+2024-6-20 19h38m59s:CClient.cppCreating new client ID: 31764
+2024-6-20 19h38m59s:CClient.cppclientThread started with port:3512
+2024-6-20 19h38m59s:Instance ID = 110
+2024-6-20 19h38m59s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 19h38m59s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 19h39m0s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 19h39m0s:Controller.cppRemoving client: 31764
+2024-6-20 19h39m0s:Controller.cppSuccessful removal of client: 31764
+2024-6-20 19h39m0s:CClient.cpp  clientThread exit. ThreadParam = 0x65fa670
+2024-6-20 21h2m10s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-6-20 21h2m11s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-6-20 21h2m14s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-6-20 21h2m18s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-6-20 21h2m28s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-6-20 21h5m9s:Controller.cppRemoving client: 13112
+2024-6-20 21h5m9s:Controller.cppSuccessful removal of client: 13112
+2024-6-20 21h5m9s:CClient.cpp  clientThread exit. ThreadParam = 0x3de50b0
+2024-6-20 21h5m9s:Controller.cppRemoving client: 10264
+2024-6-20 21h5m9s:Controller.cppSuccessful removal of client: 10264
+2024-6-20 21h5m9s:CClient.cpp  clientThread exit. ThreadParam = 0x3de3ff0
+2024-6-20 21h5m9s:Controller.cppRemoving client: 24368
+2024-6-20 21h5m9s:Controller.cppSuccessful removal of client: 24368
+2024-6-20 21h5m9s:CClient.cpp  clientThread exit. ThreadParam = 0x3de50f0
+2024-6-20 21h5m9s:Controller.cppRemoving client: 27972
+2024-6-20 21h5m9s:Controller.cppSuccessful removal of client: 27972
+2024-6-20 21h5m9s:CClient.cpp  clientThread exit. ThreadParam = 0x3de6490
+2024-6-20 21h5m9s:Controller.cppRemoving client: 25696
+2024-6-20 21h5m9s:Controller.cppSuccessful removal of client: 25696
+2024-6-20 21h5m9s:CClient.cpp  clientThread exit. ThreadParam = 0x3de7230
+2024-6-20 21h5m9s:Controller.cppRemoving client: 28456
+2024-6-20 21h5m9s:Controller.cppSuccessful removal of client: 28456
+2024-6-20 21h5m9s:CClient.cpp  clientThread exit. ThreadParam = 0x3de74b0
+2024-6-20 21h5m9s:Controller.cppRemoving client: 21928
+2024-6-20 21h5m9s:Controller.cppSuccessful removal of client: 21928
+2024-6-20 21h5m9s:CClient.cpp  clientThread exit. ThreadParam = 0x3f17580
+2024-6-20 21h5m9s:Controller.cppRemoving client: 27828
+2024-6-20 21h5m9s:GetEmbeddedModel() - Instance ID = 0
+2024-6-20 21h5m9s:ControllerExit.cppterminateControlCommThread, call OpalInitializeSend with ipAddr 10.64.117.70:47397
+2024-6-20 21h5m9s:Controller.cppSuccessful removal of client: 27828
+2024-6-20 21h5m9s:CClient.cpp  clientThread exit. ThreadParam = 0x3f175c0
+2024-6-20 21h5m9s:ControllerExit.cppEntering CloseSubControllers
+2024-6-20 21h5m9s:Stopping OpalNode watchdog.
+2024-6-20 21h5m10s:CTarget.cppStopping observer for target target
+2024-6-20 21h5m31s:Using default NodeSessions limit.  Limit set to 1024.
+2024-6-20 21h5m31s: >>>> SessionRoot::initialize port 0
+2024-6-20 21h5m31s:Begin to register on OpalRoot
+2024-6-20 21h5m31s:Registered on OpalRoot, port 25263
+2024-6-20 21h5m31s:Loading services from "C:/OPAL-RTyyq/RT-LAB/2023.1/common/bin/x64/Services"
+2024-6-20 21h5m31s:  Plugin "DataAcquisition": services informations retrieved
+2024-6-20 21h5m31s:  Plugin "DriverIdentification": services informations retrieved
+2024-6-20 21h5m31s:  Plugin "Dummy": services informations retrieved
+2024-6-20 21h5m31s:  Plugin "ePHASORSIM": services informations retrieved
+2024-6-20 21h5m31s:  Plugin "HEI": services informations retrieved
+2024-6-20 21h5m31s:  Plugin "IEC104": services informations retrieved
+2024-6-20 21h5m31s:  Plugin "Matlab": services informations retrieved
+2024-6-20 21h5m31s:  Plugin "MODBUS": services informations retrieved
+2024-6-20 21h5m31s:  Plugin "Parameters": services informations retrieved
+2024-6-20 21h5m31s:  Plugin "Pickering-41-752": services informations retrieved
+2024-6-20 21h5m31s:  Plugin "RFM": services informations retrieved
+2024-6-20 21h5m31s:  Plugin "SimulationSetup": services informations retrieved
+2024-6-20 21h5m31s:  Plugin "Web": services informations retrieved
+2024-6-20 21h5m31s:Root initialized: 10.64.117.70:25263/resources/root
+2024-6-20 21h5m31s:Service Web/Server found
+2024-6-20 21h5m31s:Initialization done
+2024-6-20 21h5m31s:ControllerMain.cpp------- NEW CONTROLLER STARTED (pid 19108) ------
+2024-6-20 21h5m31s:Controller.cppnew client: 3480
+2024-6-20 21h5m31s:CClient.cppCreating new client ID: 3212
+2024-6-20 21h5m31s:CClient.cppclientThread started with port:1256
+2024-6-20 21h5m31s:Instance ID = 0
+2024-6-20 21h5m31s:CClient.cppClient connected: name "NCSLab", computer "YI_YU_2023", ip "127.0.0.1", pid 23892
+2024-6-20 21h5m32s:CTarget.cppStarting observer for target target
+2024-6-20 21h5m32s:Service SimulationSetup/SimulationSetup found
+2024-6-20 21h5m32s:Service SimulationSetup/AliasesService found
+2024-6-20 21h5m32s:Service DriverIdentification/DriverIdentification found
+2024-6-20 21h5m32s:DataLogger library loaded
+2024-6-20 21h5m32s:DataLogger: fillPropertyTree
+2024-6-20 21h5m32s:Node '10.64.117.70:25263/resources/root/proxy/0445DEC1-1A49-4035-AE06-6E6ECA934552/90E5A5CA-F594-4010-AA00-FC7E8FF04AAC' is alive, proceed registerNode.
+2024-6-20 21h5m32s:DataLogger: fillPropertyTree
+2024-6-20 21h5m32s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx
+2024-6-20 21h5m32s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx opened
+2024-6-20 21h5m32s:CModel.cppSubsystme 'sm_ip_test' assigned to target 'target'
+2024-6-20 21h5m32s:Node '10.64.117.70:25263/resources/root/proxy/288512954935017472' is alive, proceed registerNode.
+2024-6-20 21h5m32s:Node '10.64.117.70:25263/resources/root/proxy/288512959229984768' is alive, proceed registerNode.
+2024-6-20 21h5m32s:CModel.cppSubsystme 'sm_ip_test' assigned to target 'target'
+2024-6-20 21h5m32s:GetEmbeddedModel() - Instance ID = 0
+2024-6-20 21h5m32s:CModel.cppSubsystme 'sm_ip_test' assigned to target 'target'
+2024-6-20 21h5m32s:CModel.cppSubsystme 'sm_ip_test' assigned to target 'target'
+2024-6-20 21h5m32s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\HIL_LFC\HIL_LFC.slx
+2024-6-20 21h5m32s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\HIL_LFC\HIL_LFC.slx opened
+2024-6-20 21h5m32s:WinUtils.cppCould not get the subsystem list. Verify that the model has been compiled.
+2024-6-20 21h5m32s:Loading data file: D:/RTLAB2023.1_Workspace/HIL_LFC_UDP/models/AsyncIP_sl/asyncip_sl_sm_ip_test/OpREDHAWK64target/OpalControlSignalsCreator.data
+2024-6-20 21h5m32s:[UniconComm] call POST /projects/initialize
+2024-6-20 21h5m32s:Controller.cppnew client: 3480
+2024-6-20 21h5m32s:CClient.cppCreating new client ID: 30880
+2024-6-20 21h5m32s:CClient.cppclientThread started with port:1768
+2024-6-20 21h5m32s:Instance ID = 113
+2024-6-20 21h5m32s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 21h5m32s:[UniconComm] call POST /projects/initialize
+2024-6-20 21h5m32s:[CurlComm][FAILED] Error perform: Failed initialization
+2024-6-20 21h5m32s:Controller.cppRemoving client: 30880
+2024-6-20 21h5m32s:Controller.cppSuccessful removal of client: 30880
+2024-6-20 21h5m32s:CClient.cpp  clientThread exit. ThreadParam = 0x3973f90
+2024-6-20 21h5m32s:Controller.cppnew client: 3480
+2024-6-20 21h5m33s:CClient.cppCreating new client ID: 28960
+2024-6-20 21h5m33s:CClient.cppclientThread started with port:1824
+2024-6-20 21h5m33s:Instance ID = 113
+2024-6-20 21h5m33s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 21h5m33s:[UniconComm] call POST /projects/initialize
+2024-6-20 21h5m33s:[CurlComm][FAILED] Error perform: Failed initialization
+2024-6-20 21h5m33s:[UniconComm] initialize DONE
+2024-6-20 21h5m33s:Controller.cppnew client: 3480
+2024-6-20 21h5m33s:CClient.cppCreating new client ID: 26956
+2024-6-20 21h5m33s:CClient.cppclientThread started with port:1872
+2024-6-20 21h5m33s:Instance ID = 113
+2024-6-20 21h5m33s:CClient.cppClient connected: name "NCSLab", computer "YI_YU_2023", ip "127.0.0.1", pid 23892
+2024-6-20 21h5m33s:ControllerHandleRequest.cpppClient->notifCommSock = 1924
+2024-6-20 21h5m33s:ControllerHandleRequest.cpppClient->notifCommSock = 1920
+2024-6-20 21h5m33s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx
+2024-6-20 21h5m33s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx opened
+2024-6-20 21h5m33s:GetEmbeddedModel() - Instance ID = 0
+2024-6-20 21h5m33s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\HIL_LFC\HIL_LFC.slx
+2024-6-20 21h5m33s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\HIL_LFC\HIL_LFC.slx opened
+2024-6-20 21h5m33s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx
+2024-6-20 21h5m33s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx opened
+2024-6-20 21h5m33s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\HIL_LFC\HIL_LFC.slx
+2024-6-20 21h5m33s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\HIL_LFC\HIL_LFC.slx opened
+2024-6-20 21h5m34s:update RECORDER_AsyncIP_sl_sm_ip_test
+2024-6-20 21h5m34s:DataLogger: fillPropertyTree
+2024-6-20 21h5m34s:Node '10.64.117.70:25263/resources/root/proxy/0445DEC1-1A49-4035-AE06-6E6ECA934552/90E5A5CA-F594-4010-AA00-FC7E8FF04AAC' is alive, proceed registerNode.
+2024-6-20 21h5m34s:update duration = 41.8668 ms
+2024-6-20 21h5m34s:Controller.cppnew client: 3480
+2024-6-20 21h5m34s:CClient.cppCreating new client ID: 33188
+2024-6-20 21h5m34s:Instance ID = 113
+2024-6-20 21h5m34s:CClient.cppclientThread started with port:2160
+2024-6-20 21h5m34s:CClient.cppClient connected: name "NCSLab", computer "YI_YU_2023", ip "127.0.0.1", pid 23892
+2024-6-20 21h5m34s:Controller.cppnew client: 3480
+2024-6-20 21h5m34s:CClient.cppCreating new client ID: 29708
+2024-6-20 21h5m34s:CClient.cppclientThread started with port:2188
+2024-6-20 21h5m34s:Instance ID = 113
+2024-6-20 21h5m34s:CClient.cppClient connected: name "NCSLab", computer "YI_YU_2023", ip "127.0.0.1", pid 23892
+2024-6-20 21h5m34s:Controller.cppnew client: 3480
+2024-6-20 21h5m34s:CClient.cppCreating new client ID: 22868
+2024-6-20 21h5m34s:CClient.cppclientThread started with port:2312
+2024-6-20 21h5m35s:Instance ID = 113
+2024-6-20 21h5m35s:CClient.cppClient connected: name "NCSLab", computer "YI_YU_2023", ip "127.0.0.1", pid 23892
+2024-6-20 21h5m38s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx
+2024-6-20 21h5m38s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx opened
+2024-6-20 21h5m45s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h5m45s:Controller.cppNOTIFICATION MSG IS: MODEL_COMPILING
+2024-6-20 21h5m45s:[UniconComm] call GET project/:id/models
+2024-6-20 21h5m45s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 21h5m45s:Compile.cppcompileThread launched with id = 27988
+2024-6-20 21h5m45s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m45s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m45s:Controller.cppNOTIFICATION MSG IS: Preparing model
+2024-6-20 21h5m45s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h5m45s:CTargetConnectionOpalD.cppRetrieveFileFromTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h5m46s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx: file access date is 06/20/24 21:04:21 and last access was 06/20/24 17:12:31
+2024-6-20 21h5m46s:Controller.cppNOTIFICATION MSG IS: Model separation
+2024-6-20 21h5m46s:>>> Using MatlabCOM as in-process server
+2024-6-20 21h5m46s:Service Matlab/CommandsProcessor found
+2024-6-20 21h5m46s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m46s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m46s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m46s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m47s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m47s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m48s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m48s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m48s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m48s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m49s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m49s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m49s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m49s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m50s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m50s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m50s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m50s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m51s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h5m51s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h6m19s:MatlabHandler - createConnection: create connection has been successful with Matlab version = 9.11
+2024-6-20 21h6m19s:Compile.cppCompilation abort: executing doCompileAbortExit.
+2024-6-20 21h6m24s:MatlabCOM - getMethodId: dispatcher->GetIDsOfNames('Quit') failed with code 1726
+2024-6-20 21h6m24s:MatlabCOM::initializeClassCOM: CoInitialize function failed with code 262
+2024-6-20 21h6m24s:Compile.cppDoCompile, taking abort exit
+2024-6-20 21h6m24s:Controller.cppNOTIFICATION MSG IS: MODEL_NOT_LOADABLE
+2024-6-20 21h6m24s:Controller.cppnew client: 3480
+2024-6-20 21h6m24s:[UniconComm] call GET project/:id/models
+2024-6-20 21h6m24s:CClient.cppCreating new client ID: 27484
+2024-6-20 21h6m24s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 21h6m24s:CClient.cppclientThread started with port:2508
+2024-6-20 21h6m24s:Instance ID = 113
+2024-6-20 21h6m24s:Compile.cppCompilation Thread closed.
+2024-6-20 21h6m24s:CClient.cppClient connected: name "NCSLab", computer "YI_YU_2023", ip "127.0.0.1", pid 23892
+2024-6-20 21h6m24s:[UniconComm] call GET project/:id/models
+2024-6-20 21h6m24s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 21h6m24s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 21h6m24s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 21h6m24s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx
+2024-6-20 21h6m24s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx opened
+2024-6-20 21h6m24s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 21h6m24s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 21h6m24s:Controller.cppRemoving client: 28960
+2024-6-20 21h6m24s:Controller.cppSuccessful removal of client: 28960
+2024-6-20 21h6m24s:CClient.cpp  clientThread exit. ThreadParam = 0x39742f0
+2024-6-20 21h6m24s:Controller.cppnew client: 3480
+2024-6-20 21h6m24s:CClient.cppCreating new client ID: 9784
+2024-6-20 21h6m24s:CClient.cppclientThread started with port:2428
+2024-6-20 21h6m24s:Instance ID = 113
+2024-6-20 21h6m24s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 21h6m24s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 21h6m24s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 21h6m24s:Controller.cppRemoving client: 9784
+2024-6-20 21h6m24s:Controller.cppSuccessful removal of client: 9784
+2024-6-20 21h6m24s:CClient.cpp  clientThread exit. ThreadParam = 0x39749b0
+2024-6-20 21h6m29s:Controller.cppnew client: 3480
+2024-6-20 21h6m29s:CClient.cppCreating new client ID: 19492
+2024-6-20 21h6m29s:CClient.cppclientThread started with port:2728
+2024-6-20 21h6m29s:Instance ID = 113
+2024-6-20 21h6m29s:CClient.cppClient connected: name "NCSLab", computer "YI_YU_2023", ip "127.0.0.1", pid 23892
+2024-6-20 21h6m29s:Controller.cppNOTIFICATION MSG IS: 2089389851634846756,2045
+2024-6-20 21h6m29s:>>> Using MatlabCOM as in-process server
+2024-6-20 21h6m48s:MatlabHandler - createConnection: create connection has been successful with Matlab version = 9.11
+2024-6-20 21h6m49s:MatlabHandler - getConflictFlag: The model version is older than Matlab's (Model[UnknownMatlabVersion]<->Matlab[v9.11])
+2024-6-20 21h6m50s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h6m50s:Controller.cppNOTIFICATION MSG IS: MODEL_COMPILING
+2024-6-20 21h6m50s:[UniconComm] call GET project/:id/models
+2024-6-20 21h6m50s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 21h6m50s:Compile.cppcompileThread launched with id = 31528
+2024-6-20 21h6m50s:Controller.cppnew client: 3480
+2024-6-20 21h6m50s:CClient.cppCreating new client ID: 24260
+2024-6-20 21h6m50s:CClient.cppclientThread started with port:2732
+2024-6-20 21h6m50s:Controller.cppNOTIFICATION MSG IS: Preparing model
+2024-6-20 21h6m50s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h6m50s:CTargetConnectionOpalD.cppRetrieveFileFromTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h6m50s:Controller.cppNOTIFICATION MSG IS: Model separation
+2024-6-20 21h6m50s:>>> Using MatlabCOM as in-process server
+2024-6-20 21h7m0s:Controller.cppRemoving client: 24260
+2024-6-20 21h7m0s:Controller.cppSuccessful removal of client: 24260
+2024-6-20 21h7m0s:CClient.cpp  clientThread exit. ThreadParam = 0x3a69030
+2024-6-20 21h7m0s:Controller.cppnew client: 3480
+2024-6-20 21h7m0s:CClient.cppCreating new client ID: 7336
+2024-6-20 21h7m0s:CClient.cppclientThread started with port:2816
+2024-6-20 21h7m5s:Instance ID = 113
+2024-6-20 21h7m5s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 21h7m5s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m5s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m5s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m5s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m5s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m6s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m6s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m6s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m6s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m7s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m7s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m7s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m7s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m7s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m7s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m8s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m8s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m8s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m8s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m8s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m8s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m9s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m9s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m9s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m9s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m10s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m10s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m10s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m10s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m10s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m10s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m10s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m10s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m11s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m11s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m11s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m11s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m12s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m12s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m12s:WinUtils.cppWarning: command 178 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m12s:WinUtils.cppWarning: command 111 received while compiling model. 
+The command will be ignored.
+2024-6-20 21h7m18s:MatlabHandler - createConnection: create connection has been successful with Matlab version = 9.11
+2024-6-20 21h7m19s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx
+2024-6-20 21h7m19s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx opened
+2024-6-20 21h7m53s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\Opcommon\AsyncIP_sl.subsys: file access date is 06/20/24 21:07:51 and last access was 06/20/24 17:06:09
+2024-6-20 21h7m53s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\Opcommon\asyncip_sl_1_sm_ip_test.slx: file access date is 06/20/24 21:07:48 and last access was 06/20/24 17:06:06
+2024-6-20 21h7m53s:Controller.cppNOTIFICATION MSG IS: Code generation
+2024-6-20 21h7m53s:CIniFileCache.cppSaving asyncip_sl_1_sm_ip_test.sfp because error was detected
+2024-6-20 21h7m53s:Controller.cppNOTIFICATION MSG IS: Code generation: asyncip_sl_1_sm_ip_test
+2024-6-20 21h8m9s:Controller.cppNOTIFICATION MSG IS: Parameters database
+2024-6-20 21h8m9s:Controller.cppNOTIFICATION MSG IS: Signals database
+2024-6-20 21h8m9s:CIniFileCache.cppSaving asyncip_sl_1_sm_ip_test.map because error was detected
+2024-6-20 21h8m9s:CIniFileCache.cppSaving AsyncIP_sl.sig because error was detected
+2024-6-20 21h8m9s:Node '10.64.117.70:25263/resources/root/proxy/288512954935017472' is alive, proceed registerNode.
+2024-6-20 21h8m9s:Node '10.64.117.70:25263/resources/root/proxy/288512959229984768' is alive, proceed registerNode.
+2024-6-20 21h8m16s:MatlabCOM - getMethodId: dispatcher->GetIDsOfNames('Quit') failed with code 1726
+2024-6-20 21h8m16s:MatlabCOM::initializeClassCOM: CoInitialize function failed with code 262
+2024-6-20 21h8m16s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\OpalSnapshotUtil.c: file access date is 06/20/24 21:08:09 and last access was 06/20/24 17:06:22
+2024-6-20 21h8m16s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test.c: file access date is 06/20/24 21:08:05 and last access was 06/20/24 17:06:31
+2024-6-20 21h8m16s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m16s:Controller.cppNOTIFICATION MSG IS: Source files validation
+2024-6-20 21h8m16s:Controller.cppNOTIFICATION MSG IS: File transfer
+2024-6-20 21h8m16s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m16s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m16s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m16s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m16s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m16s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m16s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m16s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m16s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m16s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m16s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m16s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m16s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m16s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m16s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m16s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m16s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m16s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m16s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m16s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m16s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m16s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m16s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m16s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m16s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m16s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m17s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m17s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m17s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m17s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m17s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m17s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m17s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m17s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m17s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m17s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m17s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m17s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m17s:CTargetConnectionOpalD.cppTransferFileToTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m17s:Controller.cppNOTIFICATION MSG IS: Code compilation
+2024-6-20 21h8m17s:CTargetConnectionOpalD.cppRetrieveFileFromTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m18s:Controller.cppNOTIFICATION MSG IS: Code compilation: asyncip_sl_1_sm_ip_test
+2024-6-20 21h8m21s:Controller.cppNOTIFICATION MSG IS: File retrieval
+2024-6-20 21h8m21s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m21s:CTargetConnectionOpalD.cppGetFileList, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m21s:CTargetConnectionOpalD.cppRetrieveFileFromTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m22s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m22s:CTargetConnectionOpalD.cppGetFileList, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m22s:CTargetConnectionOpalD.cppRetrieveFileFromTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m22s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m22s:CTargetConnectionOpalD.cppGetFileList, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m22s:CTargetConnectionOpalD.cppRetrieveFileFromTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m22s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m22s:CTargetConnectionOpalD.cppGetFileList, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m22s:CTargetConnectionOpalD.cppRetrieveFileFromTarget, daemonIpAddr 10.64.117.183
+2024-6-20 21h8m22s:Controller.cppNOTIFICATION MSG IS: End of build process
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\Opcommon\AsyncIP_sl.param: file access date is 06/20/24 21:08:09 and last access was 06/20/24 17:06:23
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\Opcommon\AsyncIP_sl.signal: file access date is 06/20/24 21:08:09 and last access was 06/20/24 17:06:23
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test.c: file access date is 06/20/24 21:08:16 and last access was 06/20/24 21:08:05
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test.h: file access date is 06/20/24 21:08:05 and last access was 06/20/24 17:06:20
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test.mk: file access date is 06/20/24 21:08:07 and last access was 06/20/24 17:06:21
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test_data.c: file access date is 06/20/24 21:08:05 and last access was 06/20/24 17:06:20
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test_offsets.c: file access date is 06/20/24 21:08:05 and last access was 06/20/24 17:06:20
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test_private.h: file access date is 06/20/24 21:08:05 and last access was 06/20/24 17:06:20
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\asyncip_sl_1_sm_ip_test_types.h: file access date is 06/20/24 21:08:05 and last access was 06/20/24 17:06:20
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\builtin_typeid_types.h: file access date is 06/20/24 21:08:05 and last access was 06/20/24 17:06:20
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\multiword_types.h: file access date is 06/20/24 21:08:05 and last access was 06/20/24 17:06:20
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rtGetInf.c: file access date is 06/20/24 21:08:05 and last access was 06/20/24 17:06:20
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rtGetInf.h: file access date is 06/20/24 21:08:04 and last access was 06/20/24 17:06:19
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rtGetNaN.c: file access date is 06/20/24 21:08:05 and last access was 06/20/24 17:06:20
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rtGetNaN.h: file access date is 06/20/24 21:08:04 and last access was 06/20/24 17:06:19
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rt_defines.h: file access date is 06/20/24 21:08:04 and last access was 06/20/24 17:06:19
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rt_nonfinite.c: file access date is 06/20/24 21:08:05 and last access was 06/20/24 17:06:20
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rt_nonfinite.h: file access date is 06/20/24 21:08:04 and last access was 06/20/24 17:06:19
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rtmodel.h: file access date is 06/20/24 21:08:05 and last access was 06/20/24 17:06:20
+2024-6-20 21h8m22s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\rtwtypes.h: file access date is 06/20/24 21:08:05 and last access was 06/20/24 17:06:20
+2024-6-20 21h8m23s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\settings.json: file access date is 06/20/24 21:08:16 and last access was 06/20/24 17:06:31
+2024-6-20 21h8m23s:CCompanionFile.cppMD5 needed for D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\asyncip_sl_sm_ip_test\OpREDHAWK64target\zero_crossing_types.h: file access date is 06/20/24 21:08:05 and last access was 06/20/24 17:06:20
+2024-6-20 21h8m23s:DevEnvNode is 'target' (target platform = 5)
+2024-6-20 21h8m23s:CModel.cppSubsystme 'sm_ip_test' assigned to target 'target'
+2024-6-20 21h8m23s:Controller.cppNOTIFICATION MSG IS: MODEL_LOADABLE
+2024-6-20 21h8m23s:[UniconComm] call GET project/:id/models
+2024-6-20 21h8m23s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 21h8m23s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 21h8m23s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 21h8m23s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 21h8m23s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 21h8m23s:Controller.cppRemoving client: 7336
+2024-6-20 21h8m23s:Controller.cppSuccessful removal of client: 7336
+2024-6-20 21h8m23s:CClient.cpp  clientThread exit. ThreadParam = 0x39750f0
+2024-6-20 21h8m28s:Compile.cppCompilation completed successfully.
+2024-6-20 21h8m28s:Compile.cppCompilation Thread closed.
+2024-6-20 21h8m28s:Archive.cppArchiveFileToString : will open D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx
+2024-6-20 21h8m28s:[UniconComm] call GET project/:id/models
+2024-6-20 21h8m28s:Archive.cppArchiveFileToString : D:\RTLAB2023.1_Workspace\HIL_LFC_UDP\models\AsyncIP_sl\AsyncIP_sl.slx opened
+2024-6-20 21h8m28s:[UniconComm] call POST /projects/{project_id}/sync
+2024-6-20 21h8m28s:Controller.cppnew client: 3480
+2024-6-20 21h8m28s:CClient.cppCreating new client ID: 5624
+2024-6-20 21h8m28s:CClient.cppclientThread started with port:3020
+2024-6-20 21h8m28s:Instance ID = 113
+2024-6-20 21h8m28s:CClient.cppClient connected: name "SYSTEM", computer "YI_YU_2023", ip "127.0.0.1", pid 15520
+2024-6-20 21h8m28s:Controller.cppNOTIFICATION MSG IS: 
+2024-6-20 21h8m28s:Controller.cppNOTIFICATION MSG IS: 0
+2024-6-20 21h8m28s:Controller.cppRemoving client: 5624
+2024-6-20 21h8m28s:Controller.cppSuccessful removal of client: 5624
+2024-6-20 21h8m28s:CClient.cpp  clientThread exit. ThreadParam = 0x3a68f10

@@ -1,0 +1,13 @@
+[
+  {"version":2},
+  {
+    "Opal::Simulation::SerializeableAliasList":
+    {
+      "name":"DC2225A8-5B5C-4AB1-8A39-F71481E41824",
+      "aliasSets":
+      [
+      ],
+      "parent":"/"
+    }
+  }
+]

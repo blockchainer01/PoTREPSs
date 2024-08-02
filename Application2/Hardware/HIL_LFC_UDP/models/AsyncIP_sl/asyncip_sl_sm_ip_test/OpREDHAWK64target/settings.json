@@ -1,0 +1,13 @@
+[
+  {"version":2},
+  {
+    "Settings":
+    {
+      "libraryPath":"/usr/opalrt/common/bin/",
+      "masterNodeHttpPort":2525,
+      "modulesPath":"",
+      "outputPath":"D:\\RTLAB2023.1_Workspace\\HIL_LFC_UDP\\models\\AsyncIP_sl",
+      "sessionNodesHttpPortFirst":25250
+    }
+  }
+]
