@@ -52,8 +52,11 @@ Here are the hardware requirements, experimental instructions and simulation cod
 
 
 ├─Application2
+
 │  ├─Hardware
+
 │  │  │  README.md
+
 │  │  │  
 │  │  ├─Area1
 │  │  ├─Area2
