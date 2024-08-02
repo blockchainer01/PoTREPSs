@@ -21,7 +21,6 @@ Here are the hardware requirements, experimental instructions and simulation cod
 │     &emsp; │  
 │     &emsp; ├─Cal_cons
 │     &emsp; └─Main System
-
 ├─Application2
 │  ├─Hardware
 │  │  │  README.md
