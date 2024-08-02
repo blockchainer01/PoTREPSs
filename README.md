@@ -58,5 +58,5 @@ Here are the hardware requirements, experimental instructions and simulation cod
 
 ## Acknowledgments
 
- * Acknowledge Shengwang Ye, Hao Xie, and Shiyu Chen that helped us in this project. 
+ * Acknowledge any people or organizations that helped us in this project. 
 <!-- We would like to thank Shengwang Ye, Hao Xie, and Shiyu Chen for helping us with this project. -->
