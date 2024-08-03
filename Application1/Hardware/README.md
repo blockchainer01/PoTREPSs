@@ -7,30 +7,30 @@ This is the hardware requirements and experimental instructions for **Applicatio
 ## Files
 
 
-├─Application1_PoTdcMG
-│  ├─Hardware
-│  │  │  README.md
-│  │  │  Raspberrypi_ip.txt
-│  │  │  
-│  │  ├─DG1
-│  │  │      
-│  │  ├─DG2
-│  │  │      
-│  │  ├─DG3
-│  │  │      
-│  │  ├─DG4
-│  │  │      
-│  │  ├─DG5
-│  │  │      
-│  │  ├─Figures
-│  │  └─m2plab_cnf
-│  │      │  
-│  └─Simulation
-│      │  Running instructions.txt
-│      │  
-│      ├─Cal_cons
-│      │      
-│      └─Main System
+├─Application1_PoTdcMG  
+│  ├─Hardware  
+│  │  │  README.md  
+│  │  │  Raspberrypi_ip.txt  
+│  │  │    
+│  │  ├─DG1  
+│  │  │        
+│  │  ├─DG2  
+│  │  │        
+│  │  ├─DG3  
+│  │  │        
+│  │  ├─DG4  
+│  │  │        
+│  │  ├─DG5  
+│  │  │        
+│  │  ├─Figures  
+│  │  └─m2plab_cnf  
+│  │      │    
+│  └─Simulation  
+│      │  Running instructions.txt  
+│      │    
+│      ├─Cal_cons  
+│      │        
+│      └─Main System  
 
 
 
