@@ -1,6 +1,4 @@
-﻿
-
-Here are the hardware requirements, experimental instructions and simulation codes for all three applications in the paper.
+﻿Here are the hardware requirements, experimental instructions and simulation codes for all three applications in the manuscript.
 
 ## Files
 
