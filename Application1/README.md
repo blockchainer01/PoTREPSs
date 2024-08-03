@@ -61,7 +61,6 @@ Here are the hardware requirements, experimental instructions and simulation cod
 │  │  │  ncslab_alg18103.elf  
 │  │  │    
 │  │  ├─mysql  
-│  │  │     
 │  │  ├─nginx  
 │  │  └─recvn  
 │  │            
