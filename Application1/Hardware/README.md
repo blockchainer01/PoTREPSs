@@ -17,7 +17,7 @@ This is the hardware requirements and experimental instructions for **Applicatio
 3) Sampling boards and hardware interfaces
 ![Interfaces](https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/2-Interface.png?raw=true)
 
-4) Five groups of Raspberry Pi as a blockchain network, for a total of 35, as shown in Figure ???????????????????????????????????????????????????????????????\ref{Ras}.
+4) Five groups of Raspberry Pi as a blockchain network, for a total of 35, as shown in Figure \ref{Ras}.
 ![Ras \label{Ras}](https://raw.githubusercontent.com/blockchainer01/Software_platform_PoT/main/Figures/Raspberry_Pis.jpg)
 
 5) Five bipolar high precision analog-to-digital expansion board (AD1263)
