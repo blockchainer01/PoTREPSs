@@ -7,36 +7,36 @@ This is the simulation code for **Application 1** and the corresponding instruct
 
 ## Files
 
-│  └─Simulation
-│      │  Running instructions.txt
-│      │  
-│      ├─Cal_cons
-│      │      conRegularization.m
-│      │      cons.mat
-│      │      constraintTrans.m
-│      │      constraintTransT.m
-│      │      constraintVisualization.m
-│      │      Initialize.m
-│      │      lcon2vert.m
-│      │      Main.m
-│      │      MinkowskiSum.m
-│      │      mRPIs.m
-│      │      PontryaginDif.m
-│      │      removeRedundantConstraints.m
-│      │      setScalar.m
-│      │      setScalarVertex.m
-│      │      vert2lcon.m
-│      │      
-│      └─Main System
-│              cons.mat
-│              Game.m
-│              GetState.m
-│              Initialize.m
-│              MainSystem.m
-│              MicrogridOutput.gif
-│              MM4.m
-│              PlotAll.m
-│              result_strategy.mat
+│  └─Simulation    
+│      │  Running instructions.txt    
+│      │    
+│      ├─Cal_cons    
+│      │      conRegularization.m        
+│      │      cons.mat    
+│      │      constraintTrans.m     
+│      │      constraintTransT.m    
+│      │      constraintVisualization.m  
+│      │      Initialize.m  
+│      │      lcon2vert.m  
+│      │      Main.m  
+│      │      MinkowskiSum.m  
+│      │      mRPIs.m  
+│      │      PontryaginDif.m  
+│      │      removeRedundantConstraints.m  
+│      │      setScalar.m  
+│      │      setScalarVertex.m  
+│      │      vert2lcon.m  
+│      │        
+│      └─Main System  
+│              cons.mat  
+│              Game.m  
+│              GetState.m  
+│              Initialize.m  
+│              MainSystem.m  
+│              MicrogridOutput.gif  
+│              MM4.m  
+│              PlotAll.m  
+│              result_strategy.mat  
 
 ## Requirements
 MATLAB software is properly installed and optimization solvers cplex, gurobi, xpress, copt, mosek are added.
