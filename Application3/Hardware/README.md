@@ -1,6 +1,5 @@
 ﻿
 
-
 # Hardware Requirements and Experimental Instructions
 
 
@@ -17,7 +16,7 @@ This application has implemented the PFC-based secondary control strategy for re
 <p align="center">Fig. 1 Architecture of a REPS with the PFC-based regulation strategy.</p>
 
  
-During the system process, the data transmission between the generator unit and the PFC controller is performed on Ethereum. This system adopts VNC access to the local area network. Therefore, the whole system can be divided into three layers.
+During the system process, the data transmission between the generator unit and the PFC controller is performed on Ethereum. This system adopts VNC Viewer access to the local area network. Therefore, the whole system can be divided into three layers.
 * The first layer is the Secondary Controller Layer (SCL). One Raspberry Pi is deployed to accomplish this function.
 * The second layer is the Signal Relay Layer (SRL). It contains seven Raspberry Pi as seven nodes forming the P2P network.
 * The third layer is the Sampling and Actuator Layer (SAL). Five DSP in this layer are respectively connected to five DGUs.
@@ -250,7 +249,7 @@ Use CCS version 8.0 or above
 
 3) Issue commands to start the control programme. Similar to Application 1, the programme automatically performs the following three steps: performs a one-minute wait, at which time the duty cycle is 0; then runs the local droop control, at which time there is no communication between the generating units; and activates the secondary controller after 5 s.
 
-4) Observe the operational status of the system. For example, waveforms are observed with oscilloscopes and the operational status of each blockchain node is monitored with VNC. The status of the data sent and received by the node at the physical layer of the microgrid in Fig. 3. The status of the data sent and received by the node at the Ethereum-based relay layer is shown in Fig. 4.
+4) Observe the operational status of the system. For example, waveforms are observed with oscilloscopes and the operational status of each blockchain node is monitored with VNC Viewer. The status of the data sent and received by the node at the physical layer of the microgrid in Fig. 3. The status of the data sent and received by the node at the Ethereum-based relay layer is shown in Fig. 4.
 
 > Note:
 > It should be noted that in Application 2, the status information of the nodes in the sampling and actuator layer is transferred from the serial port to the local computer and is printed out locally.
