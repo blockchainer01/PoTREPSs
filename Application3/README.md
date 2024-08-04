@@ -4,58 +4,57 @@ Here are the hardware requirements, experimental instructions and simulation cod
 ## Files
 
 
-├─Hardware
-│  │  README.md
-│  │  
-│  ├─Codes for DSP in plant side
-│  │  ├─cmd
-│  │  ├─Debug
-│  │  ├─include
-│  │  ├─lib
-│  │  └─source
-│  ├─Codes for PFC
-│  │      CtlNode.py
-│  │      PltPhyNode.py
-│  │      RlyAttNode.py
-│  │      
-│  └─Parameters
-│      │  Parameters_LFC.m
-│      │  
-│      └─Cal_cons
-│              conRegularization.m
-│              cons.mat
-│              constraintTrans.m
-│              constraintTransT.m
-│              constraintVisualization.m
-│              Initialize.m
-│              lcon2vert.m
-│              Main.m
-│              MinkowskiSum.m
-│              mRPIs.m
-│              PontryaginDif.m
-│              removeRedundantConstraints.m
-│              setScalar.m
-│              setScalarVertex.m
-│              vert2lcon.m
+├─Hardware  
+│  │  README.md  
+│  │    
+│  ├─Codes for DSP in plant side  
+│  │  ├─cmd  
+│  │  ├─Debug  
+│  │  ├─include  
+│  │  ├─lib  
+│  │  └─source  
+│  ├─Codes for PFC  
+│  │      &emsp;CtlNode.py  
+│  │      &emsp;PltPhyNode.py  
+│  │      &emsp;RlyAttNode.py  
+│  │        
+│  └─Parameters  
+│   &emsp;   │  Parameters_LFC.m  
+│   &emsp;   │    
+│   &emsp;   └─Cal_cons    
+│   &emsp;        &emsp;  conRegularization.m  
+│   &emsp;        &emsp;   cons.mat  
+│   &emsp;        &emsp;   constraintTrans.m  
+│   &emsp;        &emsp;   constraintTransT.m  
+│   &emsp;        &emsp;   constraintVisualization.m  
+│   &emsp;        &emsp;   Initialize.m  
+│   &emsp;        &emsp;   lcon2vert.m  
+│   &emsp;        &emsp;  Main.m  
+│   &emsp;        &emsp;   MinkowskiSum.m  
+│   &emsp;        &emsp;   mRPIs.m  
+│   &emsp;        &emsp;   PontryaginDif.m  
+│   &emsp;        &emsp;   removeRedundantConstraints.m  
+│   &emsp;        &emsp;   setScalar.m  
+│   &emsp;        &emsp;   setScalarVertex.m  
+│   &emsp;        &emsp;   vert2lcon.m  
 │              
 ├─SemiHardware
-│      CtlNode.py
-│      PltSimNode.py
-│      README.md
-│      RlyAttNode.py
-│      
-└─Simulation
-    │  README.md
-    │  
-    └─Main System
-        │  A_all.mat
-        │  B_all.mat
-        │  Initialize.m
-        │  MainSystem.m
-        │  MicrogridOutput.gif
-        │  
-        └─SystemMatrices
-                A_all.mat
-                B_all.mat
-                
+│   &emsp;   CtlNode.py
+│   &emsp;   PltSimNode.py
+│   &emsp;   README.md
+│   &emsp;   RlyAttNode.py
+│   &emsp;   
+└─Simulation  
+&emsp;    │  README.md  
+&emsp;    │    
+&emsp;    └─Main System    
+&emsp; &emsp;       │  A_all.mat  
+&emsp; &emsp;       │  B_all.mat  
+&emsp; &emsp;       │  Initialize.m  
+&emsp; &emsp;       │  MainSystem.m  
+&emsp; &emsp;       │  MicrogridOutput.gif  
+&emsp; &emsp;       │    
+&emsp;        └─SystemMatrices  
+&emsp; &emsp;               A_all.mat  
+&emsp; &emsp;               B_all.mat 
 
