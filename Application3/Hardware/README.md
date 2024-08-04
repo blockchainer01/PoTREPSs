@@ -133,7 +133,7 @@ Which accounts should be pre-funded?
 > 0x.....(account hash 2)
 > 0x.....(account hash 3)
 ...
-account hash 1-3是各节点的账户哈希值
+account hash 1-3 is the hash value of various account
 ```
 Specify Ethereum Private Chain Id
 ```
@@ -251,6 +251,9 @@ Use CCS version 8.0 or above
 3) Issue commands to start the control programme. Similar to Application 1, the programme automatically performs the following three steps: performs a one-minute wait, at which time the duty cycle is 0; then runs the local droop control, at which time there is no communication between the generating units; and activates the secondary controller after 5 s.
 
 4) Observe the operational status of the system. For example, waveforms are observed with oscilloscopes and the operational status of each blockchain node is monitored with VNC. The status of the data sent and received by the node at the physical layer of the microgrid in Fig. 3. The status of the data sent and received by the node at the Ethereum-based relay layer is shown in Fig. 4.
+
+> Note:
+> It should be noted that in Application 2, the status information of the nodes in the sampling and actuator layer is transferred from the serial port to the local computer and is printed out locally.
 
  <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/3_1SAL.png?raw=true" width="600" div align=center > </div>
  <p align="center">Fig. 3 The status of the data sent and received by the node at the sampling and actuator layer of the microgrid.</p>
