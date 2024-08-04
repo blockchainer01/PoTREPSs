@@ -1,7 +1,7 @@
 ﻿
 
 
-# Hardware Requirements and Experimental Instructions ⋅\cdot Semi-Physical Test
+# Hardware Requirements and Experimental Instructions ⋅ Semi-Physical Test
 
  <!-- PFC-Based Secondary control of DC Microgrid in Ethereum -->
 
@@ -19,7 +19,7 @@ Similar to the foregoing hardware experiment, the system structure is also divid
 Fig.1 shows the data flow between these three layers.
 
  <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig3/logic_Ethereum-DPoT-HIL.jpg?raw=true" width="400" div align=center > </div>
-<center> Fig. 1 Data flow of the PFC-assisted microgrid system based on the Ethereum platform and semi-physical simulation. </center>
+<p align="center">Fig. 1 Data flow of the PFC-assisted microgrid system based on the Ethereum platform and semi-physical simulation. </p>
 
 The procedure for conducting the experiment is as follows.
 
