@@ -21,6 +21,7 @@ Since the calculation of parameters has been conducted in advance, Step 3 can be
 
 ## See the results directly:
 Since the evolution of the system also has been run in advance, you can watch the regulation process directly by clicking on the picture "StateResponses.gif" in the folder "Main System".
-> * Output results
-> ![StateResponses](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/StateResponses.gif?raw=true)
 
+
+ <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/StateResponses.gif?raw=true" width="700" div align=center > </div>
+ <p align="center">Fig. 1. Output results of the three-area power system.</p>
