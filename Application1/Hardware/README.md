@@ -13,30 +13,37 @@ This is the hardware requirements and experimental instructions for **Applicatio
 
 1) A computer installed with the NCSLAB environment for compiling and downloading the object-side Raspberry Pi AD sampling algorithms and PWM generation modules, etc. More information about the NCSLAB environment can be found at https://www.powersim.whu.edu.cn/react/?lang=en-US.
 
-2) Five Raspberry Pi acting as sampling modules and actuators, as shown in the following figure.
+2) Five Raspberry Pi acting as sampling modules and actuators, as shown in the Fig. 2.
 
 
-3) Sampling boards and hardware interfaces
-![Interfaces](https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/2-Interface.png?raw=true)
+3) Sampling boards and hardware interfaces, as shown in the Fig. 2.
 
-4) Five groups of Raspberry Pi as a blockchain network, for a total of 35, as shown in Figure ??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????\ref{Ras}.
-![Ras \label{Ras}](https://raw.githubusercontent.com/blockchainer01/Software_platform_PoT/main/Figures/Raspberry_Pis.jpg)
+ <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/2-Interface.png?raw=true" width="700" div align=center > </div>
+ <p align="center">Fig. 2 Sampling boards and hardware interfaces.</p>
 
-5) Five bipolar high precision analog-to-digital expansion board (AD1263)
+ 
+
+5) Five groups of Raspberry Pi as a blockchain network, for a total of 35, as shown in Fig. 3.
+
+ <div align=center><img src="https://raw.githubusercontent.com/blockchainer01/Software_platform_PoT/main/Figures/Raspberry_Pis.jpg" width="700" div align=center > </div>
+ <p align="center">Fig. 3 Raspberry Pi-based blockchain network.</p>
+ 
+
+6) Five bipolar high precision analog-to-digital expansion board (AD1263)
 ![AD \label{AD}](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/4-AD263.png?raw=true)
 
 
-6) Router (TP-LINK AX1800) that can host 35 wireless devices
+7) Router (TP-LINK AX1800) that can host 35 wireless devices
 ![Router \label{Router}](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/5-Router.jpg?raw=true)
 
 
-7) USB-based power supply for Raspberry Pi, etc.
+8) USB-based power supply for Raspberry Pi, etc.
 ![supply \label{supply}](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/6-charger.jpg?raw=true)
 
-8) Five sets of distributed generation units (with DSP 28335 as their on-board controller)
+9) Five sets of distributed generation units (with DSP 28335 as their on-board controller)
 ![DCDC \label{DCDC}](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/7-converters.jpg?raw=true)
 
-9) Power supplies, including solar panels, photovoltaic simulators, batteries and DC power supplies
+10) Power supplies, including solar panels, photovoltaic simulators, batteries and DC power supplies
 - Solar panels, photovoltaic simulators, batteries
 ![Solar \label{Solar}](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/8-IMG_20231114_151932.jpg?raw=true)
 - DC power supplies
