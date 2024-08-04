@@ -119,13 +119,13 @@ Modify module `OpIPSocketCtrl1` to configure its IP address and port, as shown i
 
 Parameter description: `Data` is the data to be sent, `Data ready` controls the sending period.
 
-![RTLABceive](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/RTLABceive.png?raw=true)
+ <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/RTLABceive.png?raw=true" width="700" div align=center > </div>
 
 ##### 3.1.3  Receive data via UDP
 
 Parameter description: `set width` sets the number of received data, `message 1 data` is the received data
 
-![RTLABSEND](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/RTLABSEND.png?raw=true)
+ <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/RTLABSEND.png?raw=true" width="700" div align=center > </div>
 
 ### 3.2 Raspberry Pi side
 
@@ -178,7 +178,7 @@ unpackBuffer(buffer, &received_data); // The final received data is deposited in
 
 Running result:
 
-![6_outcomes](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/6_outcomes.png?raw=true)
+ <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/6_outcomes.png?raw=true" width="700" div align=center > </div>
 
 ##### Send data via UDP
 
