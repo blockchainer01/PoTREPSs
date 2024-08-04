@@ -24,7 +24,7 @@ Fig.1 shows the data flow between these three layers.
 The procedure for conducting the experiment is as follows.
 
 1. Initialize hardware specifications and control parameters for the controller.
-2. If secondary control is not activated, i.e., when it is at the droop control phase, DML generates the control signal [u­p,1,u­p,2,⋯,u­p,N[u­_{p,1}, u­_{p,2}, \cdots, u­_{p,N} using the system measurement $[y­_{p,1}, y­_{p,2}, \cdots, y­_{p,N}]$, and turn to step 7.
+2. If secondary control is not activated, i.e., when it is at the droop control phase, DML generates the control signal $[u­_{p,1}, u­_{p,2}, \cdots, u­_{p,N}$ using the system measurement $[y­_{p,1}, y­_{p,2}, \cdots, y­_{p,N}]$, and turn to step 7.
 3. If secondary control is activated, DML communicates with Ethereum and sends $[y­_{p,1}, y­_{p,2}, \cdots, y­_{p,N}]$ to Ethereum on all seven nodes in SRL. Ethereum further communicates with the SCL and sends their received sequence to it.
 4. Since attacks, the measurement sequences arrived at SCL are not the same. So SCL executes MRP, and uses the trustworthy result to calculate control signals $u=[u_{c,1}, u_{c,2}, \cdots, u_{c,N}]$ for all DGUs by the secondary control law.
 5. SCL also communicates with Ethereum and sends back these control signals to Ethereum on all nodes in SRL. Ethereum further sends the received signals $u=[u_{c,1}, u_{c,2}, \cdots, u_{c,N}]$ to DML.
