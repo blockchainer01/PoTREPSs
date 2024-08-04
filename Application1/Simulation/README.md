@@ -19,5 +19,6 @@ Since the calculation of parameters has been conducted in advance, Step 3 can be
 
 ##  See the results directly
 Since the evolution of the system also has been run in advance, you can view the regulation process directly from the figure below or by clicking on the picture "MicrogridOutput.gif" in the folder "Main System".
-> * Output results
-![PoTResultsMG](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/MicrogridOutput.gif?raw=true)
+
+ <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/MicrogridOutput.gif?raw=true" width="700" div align=center > </div>
+ <p align="center">Fig. 1. Output results of the microgrid system.</p>
