@@ -13,7 +13,7 @@ This is the hardware requirements and experimental instructions of for **Applica
 
 This application has implemented the PFC-based secondary control strategy for renewable energy power systems on Ethereum. The architecture of the closed-loop system is shown below. 
 
-<div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig3/Fig2_PFC_logic.png?raw=true" div align=center > </div>
+<div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig3/Fig2_PFC_logic.png?raw=true" width="700" div align=center > </div>
 <p align="center">Fig. 1 Architecture of a REPS with the PFC-based regulation strategy.</p>
 
  
@@ -25,17 +25,17 @@ During the system process, the data transmission between the generator unit and 
 Fig.2 shows the data flow between these three layers.
 
  <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig3/logic_Ethereum-DPoT-DSP.jpg?raw=true" width="400" div align=center > </div>
-<center> Fig. 2 Data flow of the PFC-assisted microgrid system based on the Ethereum platform. </center>
+ <p align="center">Fig. 2 Data flow of the PFC-assisted microgrid system based on the Ethereum platform.</p>
 
 The procedure for conducting the experiment is as follows.
 
 1. Initialize hardware specifications and control parameters for the controller.
-2. Each local DSP in SAL receives the sampled system measurement $y­_{p,i}$ where $i=1, \cdots, N$, and the same below.
-3. If secondary control is not activated, i.e., when it is at the droop control phase, each DSP generates the control signal $u­_{p,i}$ using the local measurement, and turn to step 8.
-4. If secondary control is activated, each DSP communicates with Ethereum through the **RS-485** serial port, and sends $y­_{p,i}$ to Ethereum on all seven nodes in SRL. Ethereum further communicates with the SCL and sends their received sequence $[y­_{p,1}, y­_{p,2}, \cdots, y­_{p,N}]$ to it.
+2. Each local DSP in SAL receives the sampled system measurement y­p,iy­_{p,i} where i=1,⋯,Ni=1, \cdots, N, and the same below.
+3. If secondary control is not activated, i.e., when it is at the droop control phase, each DSP generates the control signal u­p,iu­_{p,i} using the local measurement, and turn to step 8.
+4. If secondary control is activated, each DSP communicates with Ethereum through the **RS-485** serial port, and sends y­p,iy­_{p,i} to Ethereum on all seven nodes in SRL. Ethereum further communicates with the SCL and sends their received sequence $[y­_{p,1}, y­_{p,2}, \cdots, y­_{p,N}]$ to it.
 5. Since attacks, the measurement sequences arrived at SCL are not the same. So SCL executes MRP, and uses the trustworthy result to calculate control signals $u=[u_{c,1}, u_{c,2}, \cdots, u_{c,N}]$ for all DGUs by the secondary control law.
-6. SCL also communicates with Ethereum and sends back these control signals to Ethereum on all nodes in SRL. Ethereum further sends the received signal $u_{c,i}$ to the corresponding DSP of DGU $i$ through the **RS-485** serial port.
-7. Since attacks, the control signals arrived at DSP are not the same. So DSP executes MRP, and obtains the trustworthy $u_{p,i}$.
+6. SCL also communicates with Ethereum and sends back these control signals to Ethereum on all nodes in SRL. Ethereum further sends the received signal uc,iu_{c,i} to the corresponding DSP of DGU ii through the **RS-485** serial port.
+7. Since attacks, the control signals arrived at DSP are not the same. So DSP executes MRP, and obtains the trustworthy up,iu_{p,i}.
 8. After obtaining the control signal, DSP sends it to IGBT in the DGU. Then return to step 2.
 
 More details: 
