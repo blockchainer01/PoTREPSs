@@ -38,12 +38,12 @@ Here are the hardware requirements, experimental instructions and simulation cod
 │   &emsp;        &emsp;   setScalarVertex.m  
 │   &emsp;        &emsp;   vert2lcon.m  
 │              
-├─SemiHardware
-│   &emsp;   CtlNode.py
-│   &emsp;   PltSimNode.py
-│   &emsp;   README.md
-│   &emsp;   RlyAttNode.py
-│   &emsp;   
+├─SemiHardware    
+│   &emsp;   CtlNode.py  
+│   &emsp;   PltSimNode.py  
+│   &emsp;   README.md  
+│   &emsp;   RlyAttNode.py  
+│   
 └─Simulation  
 &emsp;    │  README.md  
 &emsp;    │    
