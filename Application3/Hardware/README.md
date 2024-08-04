@@ -42,13 +42,13 @@ More details:
 
 Three main programs are required to implement the PFC based secondary controller i.e., `PltNode.py`, `RlyNode.py` and `CtlNode.py` in folder `.\Codes for PFC`. Their structures are shown in Fig. 3, 4 and 5, respectively.
 
- <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/Logic_PltNode.jpg?raw=true" width="600" div align=center > </div>
+ <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/Logic_PltNode.jpg?raw=true" width="260" div align=center > </div>
  <p align="center">Fig. 3 The flow of the PltNode.py.</p>
 
-  <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/Logic_RlyNode.jpg?raw=true" width="600" div align=center > </div>
+  <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/Logic_RlyNode.jpg?raw=true" width="260" div align=center > </div>
  <p align="center">Fig. 4 The flow of the RlyNode.py.</p>
 
- <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/Logic_CtlNode.jpg?raw=true" width="600" div align=center > </div>
+ <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/Logic_CtlNode.jpg?raw=true" width="260" div align=center > </div>
  <p align="center">Fig. 5 The flow of the CtlNode.py.</p>
 
 ## Getting Started
