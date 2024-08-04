@@ -1,7 +1,7 @@
 ﻿
 
 
-# Hardware Requirements and Experimental Instructions $\cdot$ Semi-Physical Test
+# Hardware Requirements and Experimental Instructions ⋅\cdot Semi-Physical Test
 
  <!-- PFC-Based Secondary control of DC Microgrid in Ethereum -->
 
@@ -24,7 +24,7 @@ Fig.1 shows the data flow between these three layers.
 The procedure for conducting the experiment is as follows.
 
 1. Initialize hardware specifications and control parameters for the controller.
-2. If secondary control is not activated, i.e., when it is at the droop control phase, DML generates the control signal $[u­_{p,1}, u­_{p,2}, \cdots, u­_{p,N}$ using the system measurement $[y­_{p,1}, y­_{p,2}, \cdots, y­_{p,N}]$, and turn to step 7.
+2. If secondary control is not activated, i.e., when it is at the droop control phase, DML generates the control signal [u­p,1,u­p,2,⋯,u­p,N[u­_{p,1}, u­_{p,2}, \cdots, u­_{p,N} using the system measurement $[y­_{p,1}, y­_{p,2}, \cdots, y­_{p,N}]$, and turn to step 7.
 3. If secondary control is activated, DML communicates with Ethereum and sends $[y­_{p,1}, y­_{p,2}, \cdots, y­_{p,N}]$ to Ethereum on all seven nodes in SRL. Ethereum further communicates with the SCL and sends their received sequence to it.
 4. Since attacks, the measurement sequences arrived at SCL are not the same. So SCL executes MRP, and uses the trustworthy result to calculate control signals $u=[u_{c,1}, u_{c,2}, \cdots, u_{c,N}]$ for all DGUs by the secondary control law.
 5. SCL also communicates with Ethereum and sends back these control signals to Ethereum on all nodes in SRL. Ethereum further sends the received signals $u=[u_{c,1}, u_{c,2}, \cdots, u_{c,N}]$ to DML.
@@ -213,25 +213,23 @@ Start the plant side program PltNode.py
 ```bash
 python3 PltNode.py
 ```
-## Usage
 
-Describe how to use the project. Include any relevant screenshots or videos.
+4. Experiment
 
-## Contributing
+1) Start the distributed generation power supply and set each power supply according to the parameters in the `.\SemiHardware\Parameters`.
 
-Explain how others can contribute to your project. Include information on how to submit pull requests, coding style guidelines, and any other relevant information.
+2) Activate the local droop control and check that the operation indicators are reasonable. In particular, check the electrical circuits for short circuits and other safety hazards.
 
-## License
+3) Issue commands to start the control programme. Similar to Application 1, the programme automatically performs the following three steps: performs a one-minute wait, at which time the duty cycle is 0; then runs the local droop control, at which time there is no communication between the generating units; and activates the secondary controller after 5 s.
 
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+4) Observe the operational status of the system. For example, waveforms are observed with oscilloscopes and the operational status of each blockchain node is monitored with VNC. The status of the data sent and received by the node at the physical layer of the microgrid in Fig. 2. The status of the data sent and received by the node at the Ethereum-based relay layer is shown in Fig. 3.
 
-## Authors
+> Note:
+It should be noted that in Application 2, the status information of the nodes in the sampling and actuator layer is transferred from the serial port to the local computer and is printed out locally.
 
-* **Yuzhong Li** - [Your GitHub Profile](https://github.com/your-github-username)
+ <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/tkk3.JPG?raw=true" width="600" div align=center > </div>
+ <p align="center">Fig. 2 The status of the data sent and received by the node at the sampling and actuator layer of the microgrid.</p>
 
-## Acknowledgments
-
-* Acknowledge any people or organizations that helped us in this project.
-* Inspiration
-* etc.
+ <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/BC1.jpg?raw=true" width="600" div align=center > </div>
+ <p align="center">Fig. 3 The status of the data sent and received by the node at the Ethereum-based relay layer.</p>
 
