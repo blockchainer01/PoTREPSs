@@ -13,8 +13,9 @@ This is the hardware requirements and experimental instructions of for **Applica
 
 This application has implemented the PFC-based secondary control strategy for renewable energy power systems on Ethereum. The architecture of the closed-loop system is shown below. 
 
- > <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig3/Fig2_PFC_logic.png?raw=true" div align=center > </div>
->  <center>Fig. 1 Architecture of a REPS with the PFC-based regulation strategy. </center>
+<div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig3/Fig2_PFC_logic.png?raw=true" div align=center > </div>
+<p align="center">Fig. 1 Architecture of a REPS with the PFC-based regulation strategy.</p>
+
  
 During the system process, the data transmission between the generator unit and the PFC controller is performed on Ethereum. This system adopts VNC access to the local area network. Therefore, the whole system can be divided into three layers.
 * The first layer is the Secondary Controller Layer (SCL). One Raspberry Pi is deployed to accomplish this function.
