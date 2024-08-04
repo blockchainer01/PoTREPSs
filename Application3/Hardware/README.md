@@ -29,12 +29,12 @@ Fig.2 shows the data flow between these three layers.
 The procedure for conducting the experiment is as follows.
 
 1. Initialize hardware specifications and control parameters for the controller.
-2. Each local DSP in SAL receives the sampled system measurement y­p,iy­_{p,i} where i=1,⋯,Ni=1, \cdots, N, and the same below.
-3. If secondary control is not activated, i.e., when it is at the droop control phase, each DSP generates the control signal u­p,iu­_{p,i} using the local measurement, and turn to step 8.
-4. If secondary control is activated, each DSP communicates with Ethereum through the **RS-485** serial port, and sends y­p,iy­_{p,i} to Ethereum on all seven nodes in SRL. Ethereum further communicates with the SCL and sends their received sequence $[y­_{p,1}, y­_{p,2}, \cdots, y­_{p,N}]$ to it.
+2. Each local DSP in SAL receives the sampled system measurement $y­_{p,i}$ where $i=1,⋯,Ni=1, \cdots, N$, and the same below.
+3. If secondary control is not activated, i.e., when it is at the droop control phase, each DSP generates the control signal $u­_{p,i}$ using the local measurement, and turn to step 8.
+4. If secondary control is activated, each DSP communicates with Ethereum through the **RS-485** serial port, and sends $y­_{p,i}$ to Ethereum on all seven nodes in SRL. Ethereum further communicates with the SCL and sends their received sequence $[y­_{p,1}, y­_{p,2}, \cdots, y­_{p,N}]$ to it.
 5. Since attacks, the measurement sequences arrived at SCL are not the same. So SCL executes MRP, and uses the trustworthy result to calculate control signals $u=[u_{c,1}, u_{c,2}, \cdots, u_{c,N}]$ for all DGUs by the secondary control law.
 6. SCL also communicates with Ethereum and sends back these control signals to Ethereum on all nodes in SRL. Ethereum further sends the received signal uc,iu_{c,i} to the corresponding DSP of DGU ii through the **RS-485** serial port.
-7. Since attacks, the control signals arrived at DSP are not the same. So DSP executes MRP, and obtains the trustworthy up,iu_{p,i}.
+7. Since attacks, the control signals arrived at DSP are not the same. So DSP executes MRP, and obtains the trustworthy $u_{p,i}$.
 8. After obtaining the control signal, DSP sends it to IGBT in the DGU. Then return to step 2.
 
 More details: 
