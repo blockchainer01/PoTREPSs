@@ -4,7 +4,7 @@ This is the hardware requirements and experimental instructions for **Applicatio
 
 
  <div align=center><img src="https://raw.githubusercontent.com/blockchainer01/Figures_PoT/main/Figures/1-IMG_7883.JPG" width="800" div align=center > </div>
- <p align="center">Fig. 1 Microgrid test system.</p>
+ <p align="center">Fig. 1. Microgrid test system.</p>
 
 
 
@@ -19,43 +19,63 @@ This is the hardware requirements and experimental instructions for **Applicatio
 3) Sampling boards and hardware interfaces, as shown in the Fig. 2.
 
  <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/2-Interface.png?raw=true" width="700" div align=center > </div>
- <p align="center">Fig. 2 Sampling boards and hardware interfaces.</p>
+ <p align="center">Fig. 2. Sampling boards and hardware interfaces.</p>
 
  
 
-5) Five groups of Raspberry Pi as a blockchain network, for a total of 35, as shown in Fig. 3.
+4) Five groups of Raspberry Pi as a blockchain network, for a total of 35, as shown in Fig. 3.
 
  <div align=center><img src="https://raw.githubusercontent.com/blockchainer01/Software_platform_PoT/main/Figures/Raspberry_Pis.jpg" width="700" div align=center > </div>
- <p align="center">Fig. 3 Raspberry Pi-based blockchain network.</p>
+ <p align="center">Fig. 3. Raspberry Pi-based blockchain network.</p>
  
 
-6) Five bipolar high precision analog-to-digital expansion board (AD1263)
-![AD \label{AD}](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/4-AD263.png?raw=true)
+5) Five bipolar high precision analog-to-digital expansion board (AD1263), as shown in the Fig. 4.
+
+<div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/4-AD263.png?raw=true" width="700" div align=center > </div>
+ <p align="center">Fig. 4. Analog-to-digital expansion board.</p>
 
 
-7) Router (TP-LINK AX1800) that can host 35 wireless devices
-![Router \label{Router}](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/5-Router.jpg?raw=true)
+6) Router (TP-LINK AX1800) that can host 35 wireless devices, as shown in the Fig. 5.
 
 
-8) USB-based power supply for Raspberry Pi, etc.
-![supply \label{supply}](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/6-charger.jpg?raw=true)
+<div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/5-Router.jpg?raw=true" width="700" div align=center > </div>
+ <p align="center">Fig. 5. Router.</p>
 
-9) Five sets of distributed generation units (with DSP 28335 as their on-board controller)
-![DCDC \label{DCDC}](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/7-converters.jpg?raw=true)
 
-10) Power supplies, including solar panels, photovoltaic simulators, batteries and DC power supplies
-- Solar panels, photovoltaic simulators, batteries
-![Solar \label{Solar}](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/8-IMG_20231114_151932.jpg?raw=true)
-- DC power supplies
-![DCsupplies \label{DCsupplies}](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/9-IMG_20210415_104841.jpg?raw=true)
+7) USB-based power supply for Raspberry Pi, etc., as shown in the Fig. 6.
 
-10) Power line (emulating 9 buses in the microgrid)
-![line \label{line}](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/10-IMG_20231114_173637.jpg?raw=true)
+<div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/6-charger.jpg?raw=true" width="700" div align=center > </div>
+ <p align="center">Fig. 6. USB-based power supply for Raspberry Pi.</p>
 
-11) Five resistive loads
 
-12) High precision oscilloscopes
-![Oscilloscopes \label{Oscilloscopes}](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/11-IMG_20231109_234915.jpg?raw=true)
+8) Five sets of distributed generation units (with DSP 28335 as their on-board controller), as shown in the Fig. 7.
+
+<div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/7-converters.jpg?raw=true" width="700" div align=center > </div>
+ <p align="center">Fig. 7. Distributed generation units.</p>
+
+> Note:
+> It should be noted that in Application 1, Raspberry Pi based controllers are used and no on-board DSP is used.
+ 
+
+9) Power supplies, including solar panels, photovoltaic simulators, batteries and DC power supplies
+- Solar panels, photovoltaic simulators, batteries (shown in the Fig. 8.)
+<div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/8-IMG_20231114_151932.jpg?raw=true" width="700" div align=center > </div>
+ <p align="center">Fig. 8. Solar panels.</p>
+ 
+- DC power supplies (shown in the Fig. 9.)
+<div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/9-IMG_20210415_104841.jpg?raw=true" width="700" div align=center > </div>
+ <p align="center">Fig. 9. DC power supplies.</p>
+ 
+10) Tie lines (emulating 9 buses in the microgrid), as shown in the Fig. 10.
+
+<div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/10-IMG_20231114_173637.jpg?raw=true" width="700" div align=center > </div>
+ <p align="center">Fig. 10. Tie lines.</p>
+
+11) Five resistive loads, as shown in Fig. 10.
+
+12) High precision oscilloscopes, as shown in the Fig. 11.
+<div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/11-IMG_20231109_234915.jpg?raw=true" width="700" div align=center > </div>
+ <p align="center">Fig. 11. High precision oscilloscopes.</p>
 
 ## 2. Software requirements
 
