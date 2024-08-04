@@ -95,8 +95,9 @@ This is the hardware requirements and experimental instructions for **Applicatio
 
 > The NCSLAB platform is used to compile and implement a one-click download of multi-objective algorithms. The NCSLAB platform is a commercially available software platform developed by the research team, which has not been open-sourced for intellectual property reasons. More information about the NCSLAB environment can be found at https://www.powersim.whu.edu.cn/react/?lang=en-US.
 - User interface of NCSLAB
-![UINCSLAB\label{UINCSLAB}](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/12-NCSLAB_interface.png?raw=true)
-
+<div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/12-NCSLAB_interface.png?raw=true" width="700" div align=center > </div>
+ <p align="center">Fig. 12. User interface of NCSLAB.</p>
+ 
 ## 3. Network configuration 
 
 Network configuration Raspberry Pi. Make sure the Raspberry Pi is on the same network segment as the wireless route.
@@ -139,18 +140,20 @@ The algorithms used for the Raspberry Pi have been compiled into executable file
 ## 5. Experimental procedure
 
 1) Connect the converters, lines and loads according to the following figure and form a microgrid system.
-![IEEEbus \label{IEEEbus}](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig16.png?raw=true)
-
+<div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig16.png?raw=true" width="700" div align=center > </div>
+ <p align="center">Fig. 13. Block diagram of the electrical part of the IEEE 9-bus system with five power generation units.</p>
+ 
 2) Connect the sampling Raspberry Pi to the hardware converter according to the interface relationships shown in the following figure.
-![DataFlow_DCMG \label{DataFlow_DCMG}](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig17_DataFlow_DCMG.png?raw=true)
-
+<div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig17_DataFlow_DCMG.png?raw=true" width="700" div align=center > </div>
+ <p align="center">Fig. 14. Data flow of the IEEE 9-bus test bench with PoT-based blockchain.</p>
 3) Use VNC to start the Raspberry Pi's on the 5 device side, as well as the Raspberry Pi's in the controllers that make up the blockchain network, making sure that they are on the same network segment as the NCSLAB and the computers with VNS. The NCSLAB is on the LAN at 192.168.1.106. This step is to ensure that NCSLAB can send each executable file to each Raspberry Pi with one click.
 
 4) Each Raspberry Pi starts the receive programme . /recvn and specify the listening port.
 
 5) Select the Multi-Agent Algorithm One-Click Download feature of NCSLAB.  This feature is still in beta and has not yet been updated to the NCSLAB webpage.
 - Download window
-![Download \label{Download}](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig15.jpg?raw=true)
+<div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig15.jpg?raw=true" width="700" div align=center > </div>
+ <p align="center">Fig. 15. Download window.</p>
 
 6) Test the Raspberry Pi to make sure it works.
 
