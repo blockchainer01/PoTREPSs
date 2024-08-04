@@ -242,10 +242,19 @@ Use CCS version 8.0 or above
     InitFlash();
 ```
         Step 3: Compile - Burn file DPoT.out
-3)  9) Start the distributed generation power supply and set each power supply according to the parameters in the manuscript.
 
-10) Activate the local droop control and check that the operation indicators are reasonable. In particular, check the electrical circuits for short circuits and other safety hazards.
-Start DGUs
-12) Issue commands to start the control programme using the configuration software of NCSLAB. The programme automatically performs the following three steps: performs a one-minute wait, at which time the duty cycle is 0; then runs the local droop control, at which time there is no communication between the generating units; and activates the secondary controller after 5 s.
+5. Experiment
+1) Start the distributed generation power supply and set each power supply according to the parameters in the `.\Hardware\Parameters`.
 
-13) Observe the operational status of the system. For example, waveforms are observed with oscilloscopes and the operational status of each blockchain node is monitored with VNC.
+2) Activate the local droop control and check that the operation indicators are reasonable. In particular, check the electrical circuits for short circuits and other safety hazards.
+
+3) Issue commands to start the control programme. Similar to Application 1, the programme automatically performs the following three steps: performs a one-minute wait, at which time the duty cycle is 0; then runs the local droop control, at which time there is no communication between the generating units; and activates the secondary controller after 5 s.
+
+4) Observe the operational status of the system. For example, waveforms are observed with oscilloscopes and the operational status of each blockchain node is monitored with VNC. The status of the data sent and received by the node at the physical layer of the microgrid in Fig. 3. The status of the data sent and received by the node at the Ethereum-based relay layer is shown in Fig. 4.
+
+ <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/3_1SAL.png?raw=true" width="600" div align=center > </div>
+ <p align="center">Fig. 3 The status of the data sent and received by the node at the sampling and actuator layer of the microgrid.</p>
+ 
+
+ <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/b1.JPG?raw=true" width="600" div align=center > </div>
+ <p align="center">Fig. 4 The status of the data sent and received by the node at the Ethereum-based relay layer.</p>
