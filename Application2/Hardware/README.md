@@ -9,8 +9,9 @@
 ### 1.1. Hardware requirements
 
 1) OPAL-RT 4512
-![OPAL](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/2-opalrt.jpg?raw=true)
-
+ <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/2-opalrt.jpg?raw=true" width="800" div align=center > </div>
+ <p align="center">Fig. 1. OPAL-RT 4512.</p>
+ 
 2) Three Raspberry Pi acting as sampling modules and actuators, as shown in Application 1. Three groups of Raspberry Pi as a blockchain network, for a total of 15, as shown in Application 1.
 
 3) The router, USB power supply, etc. are the same as in Application 1.
@@ -39,20 +40,25 @@ An executable of the algorithm has been generated, which is the same as Applicat
 
 1) Start the RTLAB software and open the project HIL_LFC_UDP.
 
-![1_Start](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/1_Start.png?raw=true)
-
+ <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/1_Start.png?raw=true" width="800" div align=center > </div>
+ <p align="center">Fig. 2. Control desk of RTLAB software.</p>
+ 
 2) Modify module `OpIPSocketCtrl1`, configure the IP address and ports.
 
-3) Parameter description: `Remote Address ` is the static ip of the Raspberry Pi.
+3) Parameter description: `Remote Address` is the static ip of the Raspberry Pi.
 
-<img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/2_rtConfiguration.png?raw=true" alt="image-20240620211010149" style="zoom:100%;" />
+ <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/2_rtConfiguration.png?raw=true" width="800" div align=center > </div>
+ <p align="center">Fig. 3. Parameter description.</p>
 
 4) Run `build`, `load`, and `execute` in turn, at this point the RTLAB project is already running.
 
-<img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/3_compile.png?raw=true" alt="编译" style="zoom:100%;" />
+ <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/3_compile.png?raw=true" width="800" div align=center > </div>
+ <p align="center">Fig. 4. RTLAB project.</p>
 
 5) Use the `sc_console` monitoring module in `HIL_LFC_UDP.mlx` to monitor the data received via UDP, i.e. the control command, in real time.
-![4_monitor](https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/4_monitor.png?raw=true)
+ <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/4_monitor.png?raw=true" width="800" div align=center > </div>
+ <p align="center">Fig. 5. Monitoring module in the RTLAB project.</p>
+
 
 ###  4.3.2 Static IP configuration for Raspberry Pi
 
