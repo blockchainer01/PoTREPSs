@@ -5,7 +5,6 @@
 
 This is the simulation code for **Application 2** and the corresponding instructions to run it.
 
-## Files
 
 
 ## Requirements
