@@ -8,35 +8,34 @@ This is the simulation code for **Application 1** and the corresponding instruct
 ## Files
 
 │  └─Simulation    
-│      │  Running instructions.txt    
 │      │    
 │      ├─Cal_cons    
-│      │      conRegularization.m        
-│      │      cons.mat    
-│      │      constraintTrans.m     
-│      │      constraintTransT.m    
-│      │      constraintVisualization.m  
-│      │      Initialize.m  
-│      │      lcon2vert.m  
-│      │      Main.m  
-│      │      MinkowskiSum.m  
-│      │      mRPIs.m  
-│      │      PontryaginDif.m  
-│      │      removeRedundantConstraints.m  
-│      │      setScalar.m  
-│      │      setScalarVertex.m  
-│      │      vert2lcon.m  
+│      │    &emsp;  conRegularization.m        
+│      │    &emsp;  cons.mat    
+│      │    &emsp;  constraintTrans.m     
+│      │    &emsp;  constraintTransT.m    
+│      │    &emsp;  constraintVisualization.m  
+│      │    &emsp;  Initialize.m  
+│      │    &emsp;  lcon2vert.m  
+│      │    &emsp;  Main.m  
+│      │    &emsp;  MinkowskiSum.m  
+│      │    &emsp;  mRPIs.m  
+│      │    &emsp;  PontryaginDif.m  
+│      │    &emsp;  removeRedundantConstraints.m  
+│      │    &emsp;  setScalar.m  
+│      │    &emsp;  setScalarVertex.m  
+│      │    &emsp;  vert2lcon.m  
 │      │        
 │      └─Main System  
-│              cons.mat  
-│              Game.m  
-│              GetState.m  
-│              Initialize.m  
-│              MainSystem.m  
-│              MicrogridOutput.gif  
-│              MM4.m  
-│              PlotAll.m  
-│              result_strategy.mat  
+│       &emsp;&emsp;       cons.mat  
+│       &emsp; &emsp;      Game.m  
+│       &emsp; &emsp;      GetState.m  
+│       &emsp;  &emsp;     Initialize.m  
+│       &emsp; &emsp;      MainSystem.m  
+│       &emsp;  &emsp;     MicrogridOutput.gif  
+│       &emsp;  &emsp;     MM4.m  
+│       &emsp;  &emsp;     PlotAll.m  
+│       &emsp;  &emsp;     result_strategy.mat  
 
 ## Requirements
 MATLAB software is properly installed and optimization solvers cplex, gurobi, xpress, copt, mosek are added.
