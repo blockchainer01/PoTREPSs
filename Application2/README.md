@@ -6,9 +6,9 @@ Here are the hardware requirements, experimental instructions and simulation cod
 ## Files
 
 
-│  
+│    
 ├─Hardware  
-│  │  README.md  
+│  │  README.md   
 │  │    
 │  ├─Area1  
 │  │      ADSM_Area1.elf  
@@ -94,7 +94,7 @@ Here are the hardware requirements, experimental instructions and simulation cod
     │      PontryaginDif.m  
     │      removeRedundantConstraints.m  
     │      setScalar.m  
-    │      setScalarVertex.m   
+    │      setScalarVertex.m  
     │      vert2lcon.m  
     │        
     └─Main System  
@@ -107,4 +107,3 @@ Here are the hardware requirements, experimental instructions and simulation cod
             PlotAll.m  
             result_strategy.mat  
             StateResponses.gif  
-           
