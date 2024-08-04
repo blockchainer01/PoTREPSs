@@ -178,7 +178,7 @@ unpackBuffer(buffer, &received_data); // The final received data is deposited in
 
 Running result:
 
- <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/6_outcomes.png?raw=true" width="700" div align=center > </div>
+ <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/6_outcomes.png?raw=true" width="600" div align=center > </div>
 
 ##### Send data via UDP
 
