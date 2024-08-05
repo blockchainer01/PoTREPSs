@@ -40,7 +40,7 @@ The procedure for conducting the experiment is as follows.
 More details: 
 * The control algorithm is programmed in Python to be implemented on the Raspberry Pi as the DPoT-based secondary controller. Other Raspberry Pi  deployed in the Ethereum-based cyber layer interact with Ethereum through the geth client and Web3.py. Data is transmitted through the wireless router. Smart contract corresponding to PFC is programmed using Solidity. Five DGUs form the physical system of the microgrid connected by power lines. The DSP embedded in each DGU is connected to the Raspberry Pi in SRL.
 
-Three main programs are required to implement the PFC based secondary controller i.e., `PltNode.py`, `RlyNode.py` and `CtlNode.py` in folder `.\Codes for PFC`. Their structures are shown in Fig. 3, 4 and 5, respectively.
+Three main programs are required to implement the PFC based secondary controller i.e., `PhyNode.py`, `RlyNode.py` and `CtlNode.py` in folder `.\Codes for PFC`. Their structures are shown in Fig. 3, 4 and 5, respectively.
 
  <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/Logic_PltNode.jpg?raw=true" width="260" div align=center > </div>
  <p align="center">Fig. 3 The flow of the PltNode.py.</p>
