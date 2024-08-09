@@ -8,7 +8,7 @@ tmax=20/Ts;  % run time
 t_droop=5/Ts; % droop time
 Steps_con=500; 
 
-%% 2.攻击发生的情况
+%% attack performance
 x_scaplot=[];
 y_scaplot=[];
 tt=1;
@@ -31,10 +31,10 @@ figure(4)
 set(groot,'defaultAxesTickLabelInterpreter','latex');  
 set(groot,'defaulttextinterpreter','latex');
 set(groot,'defaultLegendInterpreter','latex');
-height=700;%高度 62
-width=127/72*height;%宽度，像素数127
-left=100;%距屏幕左下角水平距离
-bottem=100;%距屏幕左下角垂直距离
+height=700;
+width=127/72*height;
+left=100;
+bottem=100;
 set(gcf,'position',[left,bottem,width,height])
 
 % scatter(x_scaplot(:,1)*15/300+5,y_scaplot(:,1),10,'filled');
@@ -58,8 +58,8 @@ end
 hold off;
 grid on
 set(gca,'gridlinestyle',':','linewidth',1)
-% set(pp,'Color','#B4B4B8','LineStyle','-.') %设置颜色和线宽
-set(pp,'Color','#DDDDDD','LineStyle','-.') %设置颜色和线宽
+% set(pp,'Color','#B4B4B8','LineStyle','-.') 
+set(pp,'Color','#DDDDDD','LineStyle','-.')
 
 ylim([0,46]);
 set(pp,'LineWidth',0.2)
