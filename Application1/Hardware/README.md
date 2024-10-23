@@ -146,7 +146,8 @@ The algorithms used for the Raspberry Pi have been compiled into executable file
 2) Connect the sampling Raspberry Pi to the hardware converter according to the interface relationships shown in the following figure.
 <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig17_DataFlow_DCMG.png?raw=true" width="700" div align=center > </div>
  <p align="center">Fig. 14. Data flow of the IEEE 9-bus test bench with PoT-based blockchain.</p>
-3) Use VNC to start the Raspberry Pi's on the 5 device side, as well as the Raspberry Pi's in the controllers that make up the blockchain network, making sure that they are on the same network segment as the NCSLAB and the computers with VNS. The NCSLAB is on the LAN at 192.168.1.106. This step is to ensure that NCSLAB can send each executable file to each Raspberry Pi with one click.
+ 
+ 3) Use VNC to start the Raspberry Pi's on the 5 device side, as well as the Raspberry Pi's in the controllers that make up the blockchain network, making sure that they are on the same network segment as the NCSLAB and the computers with VNS. The NCSLAB is on the LAN at 192.168.1.106. This step is to ensure that NCSLAB can send each executable file to each Raspberry Pi with one click.
 
 4) Each Raspberry Pi starts the receive programme `./recvn` and specify the listening port.
 
