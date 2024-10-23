@@ -151,9 +151,6 @@ The algorithms used for the Raspberry Pi have been compiled into executable file
 4) Each Raspberry Pi starts the receive programme `./recvn` and specify the listening port.
 
 5) Select the Multi-Agent Algorithm One-Click Download feature of NCSLAB. This feature is still in beta and has not yet been updated to the NCSLAB webpage.
-- Download window
-<div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig15.jpg?raw=true" width="300" div align=center > </div>
- <p align="center">Fig. 15. Download window.</p>
 
 6) Test the Raspberry Pi to make sure it works.
 
