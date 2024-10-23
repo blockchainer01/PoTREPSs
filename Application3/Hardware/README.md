@@ -13,7 +13,7 @@ This is the hardware requirements and experimental instructions of for **Applica
 This application has implemented the PFC-based secondary control strategy for renewable energy power systems on Ethereum. The architecture of the closed-loop system is shown below. 
 
 <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig3/Fig2_PFC_logic.png?raw=true" width="700" div align=center > </div>
-<p align="center">Fig. 1 Architecture of a REPS with the PFC-based regulation strategy.</p>
+<p align="center">Fig. 1. Architecture of a REPS with the PFC-based regulation strategy.</p>
 
  
 During the system process, the data transmission between the generator unit and the PFC controller is performed on Ethereum. This system adopts VNC Viewer access to the local area network. Therefore, the whole system can be divided into three layers.
@@ -24,7 +24,7 @@ During the system process, the data transmission between the generator unit and 
 Fig. 2 shows the data flow between these three layers.
 
  <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig3/logic_Ethereum-DPoT-DSP.jpg?raw=true" width="400" div align=center > </div>
- <p align="center">Fig. 2 Data flow of the PFC-assisted microgrid system based on the Ethereum platform.</p>
+ <p align="center">Fig. 2. Data flow of the PFC-assisted microgrid system based on the Ethereum platform.</p>
 
 The procedure for conducting the experiment is as follows.
 
@@ -43,13 +43,13 @@ More details:
 Three main programs are required to implement the PFC based secondary controller i.e., `PhyNode.py`, `RlyNode.py` and `CtlNode.py` in folder `.\Codes for PFC`. Their structures are shown in  3, 4 and 5, respectively.
 
  <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/Logic_PltNode.jpg?raw=true" width="260" div align=center > </div>
- <p align="center"> Fig. 3 The flow of the PltNode.py.</p>
+ <p align="center"> Fig. 3. The flow of the PltNode.py.</p>
 
   <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/Logic_RlyNode.jpg?raw=true" width="260" div align=center > </div>
- <p align="center"> Fig. 4 The flow of the RlyNode.py.</p>
+ <p align="center"> Fig. 4. The flow of the RlyNode.py.</p>
 
  <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/Logic_CtlNode.jpg?raw=true" width="260" div align=center > </div>
- <p align="center"> Fig. 5 The flow of the CtlNode.py.</p>
+ <p align="center"> Fig. 5. The flow of the CtlNode.py.</p>
 
 ## Getting Started
 
@@ -266,8 +266,8 @@ Use CCS version 8.0 or above
 > It should be noted that in Application 2, the status information of the nodes in the sampling and actuator layer is transferred from the serial port to the local computer and is printed out locally.
 
  <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/3_1SAL.png?raw=true" width="600" div align=center > </div>
- <p align="center">Fig. 6 The status of the data sent and received by the node at the sampling and actuator layer of the microgrid.</p>
+ <p align="center">Fig. 6. The status of the data sent and received by the node at the sampling and actuator layer of the microgrid.</p>
  
 
  <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/b1.JPG?raw=true" width="600" div align=center > </div>
- <p align="center">Fig. 7 The status of the data sent and received by the node at the Ethereum-based relay layer.</p>
+ <p align="center">Fig. 7. The status of the data sent and received by the node at the Ethereum-based relay layer.</p>
