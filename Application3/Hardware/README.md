@@ -21,7 +21,7 @@ During the system process, the data transmission between the generator unit and 
 * The second layer is the Signal Relay Layer (SRL). It contains seven Raspberry Pi as seven nodes forming the P2P network.
 * The third layer is the Sampling and Actuator Layer (SAL). Five DSP in this layer are respectively connected to five DGUs.
 
-Fig.2 shows the data flow between these three layers.
+Fig. 2 shows the data flow between these three layers.
 
  <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig3/logic_Ethereum-DPoT-DSP.jpg?raw=true" width="400" div align=center > </div>
  <p align="center">Fig. 2 Data flow of the PFC-assisted microgrid system based on the Ethereum platform.</p>
@@ -40,16 +40,16 @@ The procedure for conducting the experiment is as follows.
 More details: 
 * The control algorithm is programmed in Python to be implemented on the Raspberry Pi as the DPoT-based secondary controller. Other Raspberry Pi  deployed in the Ethereum-based cyber layer interact with Ethereum through the geth client and Web3.py. Data is transmitted through the wireless router. Smart contract corresponding to PFC is programmed using Solidity. Five DGUs form the physical system of the microgrid connected by power lines. The DSP embedded in each DGU is connected to the Raspberry Pi in SRL.
 
-Three main programs are required to implement the PFC based secondary controller i.e., `PhyNode.py`, `RlyNode.py` and `CtlNode.py` in folder `.\Codes for PFC`. Their structures are shown in Fig. 3, 4 and 5, respectively.
+Three main programs are required to implement the PFC based secondary controller i.e., `PhyNode.py`, `RlyNode.py` and `CtlNode.py` in folder `.\Codes for PFC`. Their structures are shown in  3, 4 and 5, respectively.
 
  <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/Logic_PltNode.jpg?raw=true" width="260" div align=center > </div>
- <p align="center">Fig. 3 The flow of the PltNode.py.</p>
+ <p align="center"> 3 The flow of the PltNode.py.</p>
 
   <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/Logic_RlyNode.jpg?raw=true" width="260" div align=center > </div>
- <p align="center">Fig. 4 The flow of the RlyNode.py.</p>
+ <p align="center"> 4 The flow of the RlyNode.py.</p>
 
  <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/Logic_CtlNode.jpg?raw=true" width="260" div align=center > </div>
- <p align="center">Fig. 5 The flow of the CtlNode.py.</p>
+ <p align="center"> 5 The flow of the CtlNode.py.</p>
 
 ## Getting Started
 
@@ -260,7 +260,7 @@ Use CCS version 8.0 or above
 
 3) Issue commands to start the control programme. Similar to Application 1, the programme automatically performs the following three steps: performs a one-minute wait, at which time the duty cycle is 0; then runs the local droop control, at which time there is no communication between the generating units; and activates the secondary controller after 5 s.
 
-4) Observe the operational status of the system. For example, waveforms are observed with oscilloscopes and the operational status of each blockchain node is monitored with VNC Viewer. The status of the data sent and received by the node at the physical layer of the microgrid in Fig. 6. The status of the data sent and received by the node at the Ethereum-based relay layer is shown in Fig. 7.
+4) Observe the operational status of the system. For example, waveforms are observed with oscilloscopes and the operational status of each blockchain node is monitored with VNC Viewer. The status of the data sent and received by the node at the physical layer of the microgrid in  6. The status of the data sent and received by the node at the Ethereum-based relay layer is shown in Fig. 7.
 
 > Note:
 > It should be noted that in Application 2, the status information of the nodes in the sampling and actuator layer is transferred from the serial port to the local computer and is printed out locally.
