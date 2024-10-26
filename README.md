@@ -5,7 +5,6 @@ Here are the hardware requirements and experimental instructions for all three a
 ## Files
 
 ├─Application1
-
 │  │ README.md  
 │  │ MicrogridOutput.gif
 │  ├─Hardware  
