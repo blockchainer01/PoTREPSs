@@ -3,8 +3,9 @@
 Here are the hardware requirements and experimental instructions for all three applications in the manuscript.
 
 ## Files
+
 ├─Application1
-│  │ README.md  
+│  │  README.md  
 │  │ MicrogridOutput.gif
 │  ├─Hardware  
 │  │  │  Raspberrypi_ip.txt  
