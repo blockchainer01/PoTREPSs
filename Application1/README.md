@@ -61,11 +61,11 @@ Here are the hardware requirements and experimental instructions for Application
 &emsp;   │  └─recvn      
 &emsp;   └─Parameters  
 &emsp;   │  │  Parameters_PFCdcMG.m  
-&emsp;   │  └  cons.mat
-&emsp;   └─Plot
+&emsp;   │  └  cons.mat  
+&emsp;   └─Plot  
 &emsp;   &emsp;   │  README.md  
-&emsp;   &emsp;   │  Plot_attack_signal.m
-&emsp;   &emsp;   │  Plot_attack_time.m
+&emsp;   &emsp;   │  Plot_attack_signal.m  
+&emsp;   &emsp;   │  Plot_attack_time.m  
 &emsp;   &emsp;   └  Plot_J_H_Ratio.m
 
 
