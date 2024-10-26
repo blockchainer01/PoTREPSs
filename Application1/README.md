@@ -2,7 +2,7 @@ Here are the hardware requirements and experimental instructions for Application
 
 ## Files
 
-│ MicrogridOutput.gif
+│ MicrogridOutput.gif  
 └─Hardware  
 &emsp;   │  Raspberrypi_ip.txt  
 &emsp;   │  README.md  
