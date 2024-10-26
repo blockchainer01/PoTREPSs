@@ -1,8 +1,8 @@
 % clear all
 
 % %% load system matrices
-% load('.\SystemMatrices\A_all.mat');
-% load('.\SystemMatrices\B_all.mat');
+load('A_all.mat');
+load('B_all.mat');
 %% 
 Ts= 0.0001; % simulation step
 Tc=0.025; % control step
@@ -132,7 +132,7 @@ for t=1+t_droop:t_max
             for i=1:Ns
                 x_dg = i+(i-1)*(dim-1):i+(i-1)*(dim-1)+dim-1; % index
                 attack_flag_x{1,i}(t) = Consensus(attack_probability_x);
-                xxd_true=x(x_dg,t-d_SC); % SC延时，收到延时数据
+                xxd_true=x(x_dg,t-d_SC); % SC脩脫脢卤拢卢脢脮碌陆脩脫脢卤脢媒戮脻
                 if attack_flag_x{1,i}(t)==0  % safe from attack
     %                 xxd=xxd_true;
                     xxd_(x_dg,t)=xxd_true;
