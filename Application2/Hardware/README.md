@@ -198,6 +198,12 @@ double udpsenddata[2]={1,2,3};
 sendData(udpsenddata,3); // The first parameter is data, the second one is data_size
 ```
 
+## See the results directly:
+Since the evolution of the system also has been run in advance, you can watch the regulation process directly by clicking on the picture "StateResponses.gif" in the folder "Application2".
+
+
+ <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/StateResponses.gif?raw=true" width="700" div align=center > </div>
+ <p align="center">Fig. 1. Output results of the three-area power system.</p>
 
 
 
