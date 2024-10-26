@@ -49,7 +49,7 @@ Here are the hardware requirements and experimental instructions for all three a
 * **Yi Huang**
 * **Yu-Zhong Li**
 
-| Please contact Yi Yu (yiyu.py AT whu.edu.cn) if you have any questions.
+> Please contact Yi Yu (yiyu.py AT whu.edu.cn) if you have any questions.
 
 
 ## Acknowledgments
