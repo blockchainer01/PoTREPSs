@@ -6,7 +6,7 @@ Here are the hardware requirements and experimental instructions for Application
 ## Files
 
 
-│ StateResponses.gif
+│ StateResponses.gif  
 └─Hardware  
 &emsp;   │  README.md   
 &emsp;   ├─Area1  
