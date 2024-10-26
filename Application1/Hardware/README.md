@@ -168,3 +168,9 @@ The algorithms used for the Raspberry Pi have been compiled into executable file
 12) Issue commands to start the control programme using the configuration software of NCSLAB. The programme automatically performs the following three steps: performs a one-minute wait, at which time the duty cycle is 0; then runs the local droop control, at which time there is no communication between the generating units; and activates the secondary controller after 5 s.
 
 13) Observe the operational status of the system. For example, waveforms are observed with oscilloscopes and the operational status of each blockchain node is monitored with VNC Viewer.
+
+##  See the results directly
+Since the evolution of the system also has been run in advance, you can view the regulation process directly from the figure below or by clicking on the picture "MicrogridOutput.gif" in the folder "Application1".
+
+ <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/MicrogridOutput.gif?raw=true" width="700" div align=center > </div>
+ <p align="center">Fig. 1. Output results of the microgrid system.</p>
