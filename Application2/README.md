@@ -37,10 +37,10 @@ Here are the hardware requirements and experimental instructions for Application
 &emsp;   │  │  Node6_Area3.elf  
 &emsp;   │  └  Node7_Area3.elf  
 &emsp;   ├─HIL_LFC_UDP  
-&emsp;   │  ├─configurations
+&emsp;   │  ├─configurations  
 &emsp;   │  └─models  
 &emsp;   ├─Parameters  
-&emsp;   │  │  cons.mat
+&emsp;   │  │  cons.mat  
 &emsp;   │  │  Parameters_PoTdcMG.m  
 &emsp;   │  └─Cal_cons         
 &emsp;   └─raspberry  
