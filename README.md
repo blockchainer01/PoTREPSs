@@ -3,7 +3,7 @@
 
 Here are the hardware requirements and experimental instructions for all three applications in the paper.
 
-* Yu. Y, Liu G.-P., Huang Y., Chung, C. Y., Li Y. Z., 2024, A Blockchain Consensus Mechanism for Real-Time Regulation of Renewable Energy Power Systems, Nature Communications.
+* Yu. Y, Liu G. P., Huang Y., Chung, C. Y., Li Y. Z., 2024, A Blockchain Consensus Mechanism for Real-Time Regulation of Renewable Energy Power Systems, Nature Communications.
 * Please contact Yi Yu (yiyu.py@whu.edu.cn) if you have any questions.
 
 ## Files
