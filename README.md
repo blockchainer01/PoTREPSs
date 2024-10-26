@@ -3,7 +3,6 @@
 Here are the hardware requirements and experimental instructions for all three applications in the manuscript.
 
 ## Files
-
 ├─Application1
 │  │ README.md  
 │  │ MicrogridOutput.gif
