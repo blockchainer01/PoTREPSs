@@ -43,7 +43,7 @@ Here are the hardware requirements and experimental instructions for all three a
 &emsp;    &emsp;└─Main System  
 
         
-## Contributors
+## Authors
 
 * **Yi Yu** - [blockchainer01 (YeahPoT) ](https://github.com/blockchainer01)
 * **Guo-Ping Liu**
