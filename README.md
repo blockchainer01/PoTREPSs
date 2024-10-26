@@ -46,9 +46,7 @@ Here are the hardware requirements and experimental instructions for all three a
 ## Authors
 
 * **Yi Yu** - [blockchainer01 (YeahPoT) ](https://github.com/blockchainer01)
-* **Guo-Ping Liu**
 * **Yi Huang**
-* **Chi Yung Chung**
 * **Yu-Zhong Li**
 
 ## Acknowledgments
