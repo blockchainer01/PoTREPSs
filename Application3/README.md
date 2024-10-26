@@ -29,6 +29,6 @@ Here are the hardware requirements, experimental instructions and simulation cod
 &emsp; &emsp;     │  A_all.mat  
 &emsp; &emsp;     │  B_all.mat  
 &emsp; &emsp;     │  Initialize.m  
-&emsp; &emsp;     │  Consensus.m
+&emsp; &emsp;     │  Consensus.m  
 &emsp; &emsp;     └  MainSystem.m  
 
