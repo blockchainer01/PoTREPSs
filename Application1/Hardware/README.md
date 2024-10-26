@@ -172,5 +172,5 @@ The algorithms used for the Raspberry Pi have been compiled into executable file
 ##  See the results directly
 Since the evolution of the system also has been run in advance, you can view the regulation process directly from the figure below or by clicking on the picture "MicrogridOutput.gif" in the folder "Application1".
 
- <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/MicrogridOutput.gif?raw=true" width="700" div align=center > </div>
+ <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/MicrogridOutputApplication1.gif?raw=true" width="700" div align=center > </div>
  <p align="center">Fig. 1. Output results of the microgrid system.</p>
