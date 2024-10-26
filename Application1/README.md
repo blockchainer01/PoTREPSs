@@ -1,85 +1,71 @@
-Here are the hardware requirements, experimental instructions and simulation codes for Application1 in the manuscript.
+Here are the hardware requirements and experimental instructions for Application1 in the manuscript.
 
 ## Files
 
-├─Hardware  
-│  │  Raspberrypi_ip.txt  
-│  │  README.md  
-│  │    
-│  ├─DG1  
-│  │   &emsp;   ADSM_DG1.elf  
-│  │   &emsp;   Node1_DG1.elf  
-│  │   &emsp;   Node2_DG1.elf  
-│  │   &emsp;   Node3_DG1.elf  
-│  │   &emsp;   Node4_DG1.elf  
-│  │   &emsp;   Node5_DG1.elf  
-│  │   &emsp;   Node6_DG1.elf   
-│  │   &emsp;   Node7_DG1.elf  
-│  │        
-│  ├─DG2  
-│  │   &emsp;   ADSM_DG2.elf  
-│  │   &emsp;   Node1_DG2.elf  
-│  │   &emsp;   Node2_DG2.elf  
-│  │   &emsp;   Node3_DG2.elf  
-│  │   &emsp;   Node4_DG2.elf  
-│  │   &emsp;   Node5_DG2.elf  
-│  │   &emsp;   Node6_DG2.elf  
-│  │   &emsp;   Node7_DG2.elf  
-│  │        
-│  ├─DG3  
-│  │   &emsp;   ADSM_DG3.elf  
-│  │   &emsp;   Node1_DG3.elf  
-│  │   &emsp;   Node2_DG3.elf  
-│  │   &emsp;   Node3_DG3.elf  
-│  │   &emsp;   Node4_DG3.elf  
-│  │   &emsp;   Node5_DG3.elf  
-│  │   &emsp;   Node6_DG3.elf  
-│  │   &emsp;   Node7_DG3.elf  
-│  │        
-│  ├─DG4  
-│  │   &emsp;   ADSM_DG4.elf  
-│  │   &emsp;   Node1_DG4.elf  
-│  │   &emsp;   Node2_DG4.elf  
-│  │   &emsp;   Node3_DG4.elf  
-│  │   &emsp;   Node4_DG4.elf  
-│  │   &emsp;   Node5_DG4.elf  
-│  │   &emsp;   Node6_DG4.elf  
-│  │   &emsp;   Node7_DG4.elf  
-│  │        
-│  ├─DG5  
-│  │   &emsp;   ADSM_DG5.elf  
-│  │   &emsp;   Node1_DG5.elf  
-│  │   &emsp;   Node2_DG5.elf  
-│  │   &emsp;   Node3_DG5.elf  
-│  │   &emsp;   Node4_DG5.elf  
-│  │   &emsp;   Node5_DG5.elf  
-│  │   &emsp;   Node6_DG5.elf  
-│  │   &emsp;   Node7_DG5.elf  
-│  │        
-│  ├─m2plab_cnf  
-│  │  │  ncslab_alg18100.elf  
-│  │  │  ncslab_alg18101.elf  
-│  │  │  ncslab_alg18102.elf  
-│  │  │  ncslab_alg18103.elf  
-│  │  │    
-│  │  ├─mysql  
-│  │  ├─nginx  
-│  │  └─recvn  
-│  │            
-│  └─Parameters  
-│      &emsp; &emsp;   Parameters_PFCdcMG.m  
-│            
-└─Simulation  
-    │  &emsp;README.md  
-    │    
-    ├─Cal_cons  
-    └─Main System  
-       &emsp;&emsp;     cons.mat  
-       &emsp;&emsp;     Game.m  
-       &emsp;&emsp;     GetState.m  
-       &emsp;&emsp;     Initialize.m  
-       &emsp;&emsp;     MainSystem.m  
-       &emsp;&emsp;     MicrogridOutput.gif  
-       &emsp;&emsp;      MM4.m  
-       &emsp;&emsp;     PlotAll.m  
-       &emsp;&emsp;     result_strategy.mat
+│ MicrogridOutput.gif
+└─Hardware  
+&emsp;   │  Raspberrypi_ip.txt  
+&emsp;   │  README.md  
+&emsp;   ├─DG1  
+&emsp;   │  │ ADSM_DG1.elf  
+&emsp;   │  │ Node1_DG1.elf  
+&emsp;   │  │ Node2_DG1.elf  
+&emsp;   │  │ Node3_DG1.elf  
+&emsp;   │  │ Node4_DG1.elf  
+&emsp;   │  │ Node5_DG1.elf  
+&emsp;   │  │ Node6_DG1.elf   
+&emsp;   │  └ Node7_DG1.elf  
+&emsp;   ├─DG2  
+&emsp;   │  │  ADSM_DG2.elf  
+&emsp;   │  │ Node1_DG2.elf  
+&emsp;   │  │ Node2_DG2.elf  
+&emsp;   │  │ Node3_DG2.elf  
+&emsp;   │  │ Node4_DG2.elf  
+&emsp;   │  │ Node5_DG2.elf  
+&emsp;   │  │ Node6_DG2.elf  
+&emsp;   │  └ Node7_DG2.elf  
+&emsp;   ├─DG3  
+&emsp;   │  │ ADSM_DG3.elf  
+&emsp;   │  │ Node1_DG3.elf  
+&emsp;   │  │ Node2_DG3.elf  
+&emsp;   │  │ Node3_DG3.elf  
+&emsp;   │  │ Node4_DG3.elf  
+&emsp;   │  │ Node5_DG3.elf  
+&emsp;   │  │ Node6_DG3.elf  
+&emsp;   │  └ Node7_DG3.elf     
+&emsp;   ├─DG4  
+&emsp;   │  │ ADSM_DG4.elf  
+&emsp;   │  │ Node1_DG4.elf  
+&emsp;   │  │ Node2_DG4.elf  
+&emsp;   │  │ Node3_DG4.elf  
+&emsp;   │  │ Node4_DG4.elf  
+&emsp;   │  │ Node5_DG4.elf  
+&emsp;   │  │ Node6_DG4.elf  
+&emsp;   │  └ Node7_DG4.elf       
+&emsp;   ├─DG5  
+&emsp;   │  │ ADSM_DG5.elf  
+&emsp;   │  │ Node1_DG5.elf  
+&emsp;   │  │ Node2_DG5.elf  
+&emsp;   │  │ Node3_DG5.elf  
+&emsp;   │  │ Node4_DG5.elf  
+&emsp;   │  │ Node5_DG5.elf  
+&emsp;   │  │ Node6_DG5.elf  
+&emsp;   │  └ Node7_DG5.elf     
+&emsp;   ├─m2plab_cnf  
+&emsp;   │  │  ncslab_alg18100.elf  
+&emsp;   │  │  ncslab_alg18101.elf  
+&emsp;   │  │  ncslab_alg18102.elf  
+&emsp;   │  │  ncslab_alg18103.elf  
+&emsp;   │  ├─mysql  
+&emsp;   │  ├─nginx  
+&emsp;   │  └─recvn      
+&emsp;   └─Parameters  
+&emsp;   │  │  Parameters_PFCdcMG.m  
+&emsp;   │  └  cons.mat
+&emsp;   └─Plot
+&emsp;   &emsp;   │  README.md  
+&emsp;   &emsp;   │  Plot_attack_signal.m
+&emsp;   &emsp;   │  Plot_attack_time.m
+&emsp;   &emsp;   └  Plot_J_H_Ratio.m
+
+
