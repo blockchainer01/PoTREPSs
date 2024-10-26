@@ -113,7 +113,7 @@ Similar to the steps in Application 1, start the Raspberry Pi controller, monito
 
 ##### 3.1.1 Configuration
 
-Modify module `OpIPSocketCtrl1` to configure its IP address and port, as shown in Figure \ref{xx}.
+Modify module `OpIPSocketCtrl1` to configure its IP address and port, as shown in Figure ???\ref{xx}.
 
 ##### 3.1.2  Send data via UDP
 
@@ -203,7 +203,7 @@ Since the evolution of the system also has been run in advance, you can watch th
 
 
  <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig3/StateResponsesApplication2.gif?raw=true" width="700" div align=center > </div>
- <p align="center">Fig. 1. Output results of the three-area power system.</p>
+ <p align="center">Fig. 6. Output results of the three-area power system.</p>
 
 
 
