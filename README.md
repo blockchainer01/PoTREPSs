@@ -20,7 +20,7 @@ Here are the hardware requirements and experimental instructions for all three a
 │  │  └─Parameters  
 ├─Application2  
 │  │ README.md   
-│  │ StateResponses.gif 
+│  │ StateResponses.gif  
 │  ├─Hardware  
 │  │  │  README.md  
 │  │  ├─Area1  
@@ -31,7 +31,7 @@ Here are the hardware requirements and experimental instructions for all three a
 │  │  └─raspberry  
 └─Application3  
 &emsp;&nbsp;│ README.md   
-&emsp;&nbsp;│ MicrogridOutput.gif  
+&emsp;&nbsp;│ MicrogridOutput.gif   
 &emsp;&nbsp;├─Hardware  
 &emsp;   │ │  README.md  
 &emsp;   │ ├─Codes for DSP in plant side  
