@@ -4,7 +4,7 @@ Here are the hardware requirements, experimental instructions and simulation cod
 
 ## Files
 
-│ MicrogridOutput.gif
+│ MicrogridOutput.gif  
 ├─Hardware  
 │  │  README.md  
 │  ├─Codes for DSP in plant side  
