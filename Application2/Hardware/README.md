@@ -17,7 +17,7 @@
  <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/2-opalrt.jpg?raw=true" width="800" div align=center > </div>
  <p align="center">(b) OPAL-RT OP4512 (as an alternative to OP5700).</p>
 
-<p align="center">Fig. 1. OPAL-RT simulator.</p>
+<p align="center">Fig. 1. OPAL- simulator.</p>
  
 2) Three Raspberry Pi acting as sampling modules and actuators, as shown in Application 1. Three groups of Raspberry Pi as a blockchain network, for a total of 15, as shown in Application 1.
 
