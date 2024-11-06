@@ -121,7 +121,7 @@ Similar to the steps in Application 1, start the Raspberry Pi controller, monito
 
 ##### 3.1.1 Configuration
 
-Modify module `OpIPSocketCtrl1` to configure its IP address and port, as shown in Figure ??????????????????????????????\ref{xx}.
+Modify module `OpIPSocketCtrl1` to configure its IP address and port.
 
 ##### 3.1.2  Send data via UDP
 
