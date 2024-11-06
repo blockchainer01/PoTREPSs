@@ -24,14 +24,14 @@ Here are the hardware requirements and experimental instructions for all three a
 ├─Application2  
 │  │ README.md   
 │  │ StateResponses.gif  
-│  ├─Hardware  
-│  │  │  README.md  
-│  │  ├─Area1  
-│  │  ├─Area2  
-│  │  ├─Area3  
-│  │  ├─HIL_LFC_UDP  
-│  │  ├─Parameters  
-│  │  └─raspberry  
+│  └─Hardware  
+│  &emsp;  │  README.md  
+│  &emsp;  ├─Area1  
+│  &emsp;  ├─Area2  
+│  &emsp;  ├─Area3  
+│  &emsp;  ├─HIL_LFC_UDP  
+│  &emsp;  ├─Parameters  
+│  &emsp;  └─raspberry  
 └─Application3  
 &emsp;&nbsp;│ README.md   
 &emsp;&nbsp;│ MicrogridOutput.gif   
