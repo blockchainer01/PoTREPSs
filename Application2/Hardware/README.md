@@ -29,15 +29,15 @@
 
 2) The rest of the software is the same as in Application 1
 
-### 3. The network configuration of the Raspberry Pi is the same as Application 1
+### 1.3. The network configuration of the Raspberry Pi is the same as Application 1
 
-### 4. Implementation of the PoT-based load frequency control algorithm
+### 1.4. Implementation of the PoT-based load frequency control algorithm
 
-### 4.1 Hardware and control parameters of the system
+### 1.4.1 Hardware and control parameters of the system
 
 Hardware parameters and control parameters can be found in the parameter folder Parameters.
 
-### 4.2 Algorithm design and implementation
+### 1.4.2 Algorithm design and implementation
 
 An executable of the algorithm has been generated, which is the same as Application 1.
 
