@@ -36,12 +36,12 @@ Here are the hardware requirements and experimental instructions for all three a
 &emsp;│ README.md   
 &emsp;│ MicrogridOutput.gif   
 &emsp;├─Hardware  
-&emsp;   │ │  README.md  
-&emsp;   │ ├─Codes for DSP in plant side  
-&emsp;   │ ├─Codes for PFC  
-&emsp;   │  └─Parameters  
-&emsp;   ├─SemiHardware  
-&emsp;   └─Simulation  
+&emsp;│ │  README.md  
+&emsp;│ ├─Codes for DSP in plant side  
+&emsp;│ ├─Codes for PFC  
+&emsp;│  └─Parameters  
+&emsp;├─SemiHardware  
+&emsp;└─Simulation  
 &emsp;    &emsp;│  README.md  
 &emsp;    &emsp;└─Main System  
 
