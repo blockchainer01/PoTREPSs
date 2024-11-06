@@ -33,9 +33,9 @@ Here are the hardware requirements and experimental instructions for all three a
 │  &emsp;  ├─Parameters  
 │  &emsp;  └─raspberry  
 └─Application3  
-&emsp;&nbsp;│ README.md   
-&emsp;&nbsp;│ MicrogridOutput.gif   
-&emsp;&nbsp;├─Hardware  
+&emsp;│ README.md   
+&emsp;│ MicrogridOutput.gif   
+&emsp;├─Hardware  
 &emsp;   │ │  README.md  
 &emsp;   │ ├─Codes for DSP in plant side  
 &emsp;   │ ├─Codes for PFC  
