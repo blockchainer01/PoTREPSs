@@ -19,7 +19,6 @@ Here are the hardware requirements and experimental instructions for all three a
 │  │  ├─DG3  
 │  │  ├─DG4  
 │  │  ├─DG5  
-│  │  ├─m2plab_cnf  
 │  │  ├─Plot    
 │  │  └─Parameters  
 ├─Application2  
