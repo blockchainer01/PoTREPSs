@@ -50,16 +50,8 @@ Here are the hardware requirements and experimental instructions for Application
 &emsp;   │  │ Node4_DG5.elf  
 &emsp;   │  │ Node5_DG5.elf  
 &emsp;   │  │ Node6_DG5.elf  
-&emsp;   │  └ Node7_DG5.elf     
-&emsp;   ├─m2plab_cnf  
-&emsp;   │  │  ncslab_alg18100.elf  
-&emsp;   │  │  ncslab_alg18101.elf  
-&emsp;   │  │  ncslab_alg18102.elf  
-&emsp;   │  │  ncslab_alg18103.elf  
-&emsp;   │  ├─mysql  
-&emsp;   │  ├─nginx  
-&emsp;   │  └─recvn      
-&emsp;   └─Parameters  
+&emsp;   │  └ Node7_DG5.elf          
+&emsp;   ├─Parameters  
 &emsp;   │  │  Parameters_PoTdcMG.m  
 &emsp;   │  └  cons.mat  
 &emsp;   └─Plot  
