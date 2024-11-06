@@ -11,11 +11,13 @@
 1) OPAL-RT Simulator (Target)
 
  <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig2/IMG_20220623_111759.jpg?raw=true" width="800" div align=center > </div>
- <p align="center">Fig. 1. OPAL-RT 5700.</p>
+ <p align="center">(a) OPAL-RT 5700.</p>
  
 
  <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/2-opalrt.jpg?raw=true" width="800" div align=center > </div>
- <p align="center">Fig. 1. OPAL-RT 4512.</p>
+ <p align="center">(b) OPAL-RT 4512.</p>
+
+<p align="center">Fig. 1. OPAL-RT simulator.</p>
  
 2) Three Raspberry Pi acting as sampling modules and actuators, as shown in Application 1. Three groups of Raspberry Pi as a blockchain network, for a total of 15, as shown in Application 1.
 
