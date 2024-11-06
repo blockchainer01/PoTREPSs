@@ -11,16 +11,16 @@ Here are the hardware requirements and experimental instructions for all three a
 ├─Application1  
 │  │  README.md  
 │  │ MicrogridOutput.gif  
-│  ├─Hardware  
-│  │  │  Raspberrypi_ip.txt  
-│  │  │  README.md  
-│  │  ├─DG1  
-│  │  ├─DG2  
-│  │  ├─DG3  
-│  │  ├─DG4  
-│  │  ├─DG5  
-│  │  ├─Plot    
-│  │  └─Parameters  
+│  └─Hardware  
+│  &emsp;  │  Raspberrypi_ip.txt  
+│  &emsp;  │  README.md  
+│  &emsp;  ├─DG1  
+│  &emsp;  ├─DG2  
+│  &emsp;  ├─DG3  
+│  &emsp;  ├─DG4  
+│  &emsp;  ├─DG5  
+│  &emsp;  ├─Plot    
+│  &emsp;  └─Parameters  
 ├─Application2  
 │  │ README.md   
 │  │ StateResponses.gif  
