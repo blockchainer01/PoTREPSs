@@ -42,7 +42,6 @@ Here are the hardware requirements and experimental instructions for Application
 &emsp;   ├─Parameters  
 &emsp;   │  │  cons.mat  
 &emsp;   │  │  Parameters_PoTdcMG.m  
-&emsp;   │  └─Cal_cons         
 &emsp;   └─raspberry  
 &emsp; &emsp;  │  main  
 &emsp; &emsp;  │  main.c  
