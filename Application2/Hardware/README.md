@@ -8,12 +8,12 @@
 
 ### 1.1. Hardware requirements
 
-
+1) OPAL-RT Simulator (Target)
 
  <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Fig2/IMG_20220623_111759.jpg?raw=true" width="800" div align=center > </div>
  <p align="center">Fig. 1. OPAL-RT 5700.</p>
  
-1) OPAL-RT 4512
+
  <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/Fig2/2-opalrt.jpg?raw=true" width="800" div align=center > </div>
  <p align="center">Fig. 1. OPAL-RT 4512.</p>
  
