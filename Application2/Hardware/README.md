@@ -30,7 +30,7 @@
 2) The rest of the software is the same as in Application 1
 
 ### 1.3. The network configuration 
-The network configuration of the Raspberry Pi is the same as Application 1
+The network configuration of the Raspberry Pi is the same as Application 1.
 
 ### 1.4. Implementation of the PoT-based load frequency control algorithm
 
