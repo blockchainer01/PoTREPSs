@@ -28,11 +28,11 @@
 
 ### 4.1 Hardware and control parameters of the system
 
-Hardware parameters and control parameters can be found in the parameter folder xxx.
+Hardware parameters and control parameters can be found in the parameter folder Parameters.
 
 ### 4.2 Algorithm design and implementation
 
-An executable of the algorithm has been generated, which is the same as Application 1. The specific algorithm design is available in the MATLAB file at xx. The code can be run directly on a computer with MATLAB software installed.
+An executable of the algorithm has been generated, which is the same as Application 1.
 
 ## 2. Experimental procedure
 
