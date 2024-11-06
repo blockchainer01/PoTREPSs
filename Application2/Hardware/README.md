@@ -43,7 +43,7 @@ An executable of the algorithm has been generated, which is the same as Applicat
 
 ## 2. Experimental procedure
 
-###  4.3.1 Start OPAL-RT
+###  2.1 Start OPAL-RT
 
 1) Start the RTLAB software and open the project HIL_LFC_UDP.
 
@@ -67,7 +67,7 @@ An executable of the algorithm has been generated, which is the same as Applicat
  <p align="center">Fig. 5. Monitoring module in the RTLAB project.</p>
 
 
-###  4.3.2 Static IP configuration for Raspberry Pi
+###  2.2 Static IP configuration for Raspberry Pi
 
 Switch on the Raspberry Pi and connect it to the RTLAB with a network cable so that the Raspberry Pi is on the same network segment as the RTLAB, and configure the static IP.
 
@@ -88,7 +88,7 @@ static domain_name_servers=8.8.8.8 // DNS server
 
 Note: Execute `sudo reboot` after modifying the above files to reboot the Raspberry Pi.
 
-###  4.3.3 2.3 Start the UDP communication server of the Raspberry Pi.
+###  2.3 Start the UDP communication server of the Raspberry Pi.
 
 1) Configure the port on the receiving end.
 ```c
@@ -110,7 +110,7 @@ sudo chmod +x run_pack.sh
 sudo ./run_pack.sh
 ```
 
-###  4.3.4 Start the Raspberry Pi controller and monitor the operational status of the HIL test system
+###  2.4 Start the Raspberry Pi controller and monitor the operational status of the HIL test system
 Similar to the steps in Application 1, start the Raspberry Pi controller, monitor the operational status of the HIL test system, etc.
 
 
@@ -120,7 +120,7 @@ Similar to the steps in Application 1, start the Raspberry Pi controller, monito
 
 ##### 3.1.1 Configuration
 
-Modify module `OpIPSocketCtrl1` to configure its IP address and port, as shown in Figure ????????????\ref{xx}.
+Modify module `OpIPSocketCtrl1` to configure its IP address and port, as shown in Figure ??????????????????????????????\ref{xx}.
 
 ##### 3.1.2  Send data via UDP
 
