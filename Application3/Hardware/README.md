@@ -48,7 +48,7 @@ Three main programs are required to implement the PFC based secondary controller
   <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Final_revision/Logic_RlyNode.jpg?raw=true" width="260" div align=center > </div>
  <p align="center"> Fig. 4. The flow of the RlyNode.py.</p>
 
- <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Final_revision/Logic_CtlNode.jpg?raw=true" width="280" div align=center > </div>
+ <div align=center><img src="https://github.com/blockchainer01/Figures_PoT/blob/main/Figures/Final_revision/Logic_CtlNode.jpg?raw=true" width="320" div align=center > </div>
  <p align="center"> Fig. 5. The flow of the CtlNode.py.</p>
 
 ## Getting Started
