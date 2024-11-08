@@ -16,7 +16,7 @@ sys_choose=all_choose;
 %     for att=1:29  
 % the action of the attacker
 att_choose=all_choose;
-% for all sensor\attacker\controller_action(:,i)£¬
+% for all sensor\attacker\controller_action(:,i)
 % corresponding probability of all scenes
 % turn the above decided actions to the division of two kinds of nodes
 % focus only on the channel with the message
