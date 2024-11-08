@@ -93,7 +93,7 @@ This is the hardware requirements and experimental instructions for **Applicatio
 
 5) NCSLAB
 
-> The NCSLAB platform is used to compile and implement a one-click download of multi-objective algorithms. The NCSLAB platform is a commercially available software platform developed by the research team, which has not been open-sourced for intellectual property reasons. More information about the NCSLAB environment can be found at https://www.powersim.whu.edu.cn/react/?lang=en-US.
+> The NCSLAB platform is used to compile and implement the algorithms. The NCSLAB platform is a commercially available software platform developed by the research team, which has not been open-sourced for intellectual property reasons. More information about the NCSLAB environment can be found at https://www.powersim.whu.edu.cn/react/?lang=en-US.
 - User interface of NCSLAB
 <div align=center><img src="https://github.com/blockchainer01/Software_platform_PoT/blob/main/Figures/12-NCSLAB_interface.png?raw=true" width="700" div align=center > </div>
  <p align="center">Fig. 12. User interface of NCSLAB.</p>
