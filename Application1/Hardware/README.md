@@ -82,16 +82,13 @@ This is the hardware requirements and experimental instructions for **Applicatio
 1) Ubuntu virtual machine
 > MATLAB and a cross-compilation environment for Ubuntu and Raspberry Pi for compiling control algorithms is built in the Ubuntu virtual machine.
 
-2) Navicat
-> Navicat connects to the NCSLAB database in order to use the one-click download feature of the algorithm.
-
-3) VNC
+2) VNC
 > The VNC is used to remotely control the Raspberry Pi-based controller on the PC, and also to quickly import the experimental data to the PC. In addition, it is also responsible for monitoring the operational status of the blockchain.
 
-4) Recvn file
+3) Recvn file
 > The Recvn file is used to receive compiled programs from the computer on the Raspberry Pi, and can also be used to start and run programs, and to connect to the NetContop real-time monitoring software developed by our group.
 
-5) NCSLAB
+4) NCSLAB
 
 > The NCSLAB platform is used to compile and implement the algorithms. The NCSLAB platform is a commercially available software platform developed by the research team, which has not been open-sourced for intellectual property reasons. More information about the NCSLAB environment can be found at https://www.powersim.whu.edu.cn/react/?lang=en-US.
 - User interface of NCSLAB
@@ -151,23 +148,21 @@ The algorithms used for the Raspberry Pi have been compiled into executable file
 
 4) Each Raspberry Pi starts the receive programme `./recvn` and specify the listening port.
 
-5) Select the Multi-Agent Algorithm One-Click Download feature of NCSLAB. This feature is still in beta and has not yet been updated to the NCSLAB webpage.
+5) Test the Raspberry Pi to make sure it works.
 
-6) Test the Raspberry Pi to make sure it works.
+6) Test the configuration of NCSLAB to ensure that the commands are issued and working properly.
 
-7) Test the configuration of NCSLAB to ensure that the commands are issued and working properly.
+7) Test the hardware circuits to ensure that the circuits are working properly.
 
-8) Test the hardware circuits to ensure that the circuits are working properly.
+8) Start the distributed generation power supply and set each power supply according to the parameters in the manuscript.
 
-9) Start the distributed generation power supply and set each power supply according to the parameters in the manuscript.
+9) Activate the local droop control and check that the operation indicators are reasonable. In particular, check the electrical circuits for short circuits and other safety hazards.
 
-10) Activate the local droop control and check that the operation indicators are reasonable. In particular, check the electrical circuits for short circuits and other safety hazards.
+10) Ensure that the configuration software of NCSLAB is successfully connected to the Raspberry Pi. Download each executable file.
 
-11) Ensure that the configuration software of NCSLAB is successfully connected to the Raspberry Pi. Download each executable file.
+11) Issue commands to start the control programme using the configuration software of NCSLAB. The programme automatically performs the following three steps: performs a one-minute wait, at which time the duty cycle is 0; then runs the local droop control, at which time there is no communication between the generating units; and activates the secondary controller after 5 s.
 
-12) Issue commands to start the control programme using the configuration software of NCSLAB. The programme automatically performs the following three steps: performs a one-minute wait, at which time the duty cycle is 0; then runs the local droop control, at which time there is no communication between the generating units; and activates the secondary controller after 5 s.
-
-13) Observe the operational status of the system. For example, waveforms are observed with oscilloscopes and the operational status of each blockchain node is monitored with VNC Viewer.
+12) Observe the operational status of the system. For example, waveforms are observed with oscilloscopes and the operational status of each blockchain node is monitored with VNC Viewer.
 
 ##  See the results directly
 Since the evolution of the system also has been run in advance, you can view the regulation process directly from the figure below or by clicking on the picture "MicrogridOutput.gif" in the folder "Application1".
