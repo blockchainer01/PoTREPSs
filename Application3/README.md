@@ -17,7 +17,7 @@ Here are the hardware requirements, experimental instructions and simulation cod
 │  │  │ PltPhyNode.py  
 │  │  └ RlyAttNode.py  
 │  └─Parameters  
-│   &emsp;   └  Parameters_PFCdcMG.m  
+│   &emsp;  └  Parameters_PFCdcMG.m  
 ├─SemiHardware    
 │ │ CtlNode.py  
 │ │ PhySimNode.py  
