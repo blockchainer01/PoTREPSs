@@ -4,7 +4,6 @@ Here are the hardware requirements and experimental instructions for Application
 
 │ MicrogridOutput.gif  
 └─Hardware  
-&emsp;   │  Raspberrypi_ip.txt  
 &emsp;   │  README.md  
 &emsp;   ├─DG1  
 &emsp;   │  │ ADSM_DG1.elf  
